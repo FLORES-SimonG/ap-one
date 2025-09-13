@@ -16,6 +16,8 @@ interface Answer {
   importantWords: ImportantWord[];
 }
 
+
+
 export interface Card {
   number: string; 
   section: string; 
