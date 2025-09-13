@@ -1,6 +1,6 @@
 import { Card } from "@/lib/interfaces/cards";
 
-export const sectionC:Card[]=[
+export const sectionG:Card[]=[
   {
     number: "210",
     section: "Auftragsabschluss und Leistungserbringung",

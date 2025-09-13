@@ -1,7 +1,7 @@
 import { Card } from "@/lib/interfaces/cards";
 
 
-export const leargningCardsSectionC: Card[] = [
+export const sectionC: Card[] = [
   {
     number: "47",
     section: "Beurteilen marktgängiger IT-Systeme und Lösungen",

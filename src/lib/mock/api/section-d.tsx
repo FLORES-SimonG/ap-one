@@ -1,6 +1,6 @@
 import { Card } from "@/lib/interfaces/cards";
 
-export const section_D: Card[] = [
+export const sectionD: Card[] = [
   {
     number: "105",
     section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
