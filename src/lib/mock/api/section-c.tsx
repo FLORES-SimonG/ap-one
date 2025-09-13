@@ -1,6 +1,5 @@
 import { Card } from "@/lib/interfaces/cards";
 
-
 export const sectionC: Card[] = [
   {
     number: "47",
@@ -40,7 +39,7 @@ export const sectionC: Card[] = [
     },
     answer: {
       title: "Antwort",
-      text: "Eine Dockingstation (englisch to dock \"andocken\", oder auch \"koppeln\") wird verwendet, wenn mobile Geräte, wie zum Beispiel Notebooks oder PDAs, mit einem festen Netz verbunden werden sollen. Dockingstationen für Notebooks werden auch als Portreplikatoren eingesetzt, sodass vorhandene Ports an die Dockingstation „durchgereicht\" werden. Des Weiteren werden über die Dockingstation zusätzliche externe Schnittstellen wie USB, HDMI, DisplayPort/mini DisplayPort, VGA, Firewire, etc. zur Verfügung gestellt.",
+      text: 'Eine Dockingstation (englisch to dock "andocken", oder auch "koppeln") wird verwendet, wenn mobile Geräte, wie zum Beispiel Notebooks oder PDAs, mit einem festen Netz verbunden werden sollen. Dockingstationen für Notebooks werden auch als Portreplikatoren eingesetzt, sodass vorhandene Ports an die Dockingstation „durchgereicht" werden. Des Weiteren werden über die Dockingstation zusätzliche externe Schnittstellen wie USB, HDMI, DisplayPort/mini DisplayPort, VGA, Firewire, etc. zur Verfügung gestellt.',
       importantWords: [
         { german: "Dockingstation", spanish: "Estación de acoplamiento" },
         { german: "Portreplikatoren", spanish: "Replicadores de puertos" },
@@ -112,6 +111,45 @@ export const sectionC: Card[] = [
     },
   },
   {
+    number: "52",
+    section: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    question: {
+      title: "Frage",
+      text: "Was verbirgt sich hinter Bezeichnung UHD 4K?",
+      difficulty: 2,
+      importantWords: [
+        { german: "Bezeichnung", spanish: "denominación / designación" },
+        { german: "verbirgt sich", spanish: "se esconde / qué significa" },
+        { german: "UHD 4K", spanish: "UHD 4K (Ultra Alta Definición)" },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "UHD (Ultra High Definition) 4K bezeichnet ein digitales Videoformat der International Telecommunication Union (ITU) für Ultra High Definition Television (UHDTV oder Ultra HDTV) sowie Ultra High Definition Video (UHDV). UHD 4K wird heute auch als UHD-1 bezeichnet und lehnt sich am Cinema 4K (4096 x 2160 Pixel) an. Die Hersteller spezifizieren jedoch ihre Geräte mit 3840 x 2160 Pixeln heute oftmals auch als UHD 4K.",
+      importantWords: [
+        {
+          german: "Ultra High Definition (UHD)",
+          spanish: "Ultra Alta Definición",
+        },
+        {
+          german: "International Telecommunication Union (ITU)",
+          spanish: "Unión Internacional de Telecomunicaciones",
+        },
+        { german: "UHDTV", spanish: "Televisión de ultra alta definición" },
+        {
+          german: "Ultra HDTV",
+          spanish: "Televisión de ultra alta definición (otra denominación)",
+        },
+        { german: "UHDV", spanish: "Vídeo de ultra alta definición" },
+        { german: "Cinema 4K", spanish: "Cine 4K (4096 x 2160 píxeles)" },
+        { german: "Pixel", spanish: "píxel" },
+        { german: "Hersteller", spanish: "fabricantes" },
+        { german: "spezifizieren", spanish: "especificar" },
+        { german: "Geräte", spanish: "dispositivos / aparatos" },
+      ],
+    },
+  },
+  {
     number: "56",
     section: "Beurteilen marktgängiger IT-Systeme und Lösungen",
     question: {
@@ -141,9 +179,7 @@ export const sectionC: Card[] = [
       title: "Frage",
       text: "Was versteht man unter dem Begriff Green-IT?",
       difficulty: 1,
-      importantWords: [
-        { german: "Green-IT", spanish: "Green-IT" },
-      ],
+      importantWords: [{ german: "Green-IT", spanish: "Green-IT" }],
     },
     answer: {
       title: "Antwort",
@@ -162,9 +198,7 @@ export const sectionC: Card[] = [
       title: "Frage",
       text: "Erkläre das Servicemodell Infrastructure as a Service (IaaS).",
       difficulty: 2,
-      importantWords: [
-        { german: "IaaS", spanish: "IaaS" },
-      ],
+      importantWords: [{ german: "IaaS", spanish: "IaaS" }],
     },
     answer: {
       title: "Antwort",
@@ -193,7 +227,10 @@ export const sectionC: Card[] = [
       text: "Die Vorteile sind: Geringerer Programmieraufwand, zusätzliche Entwicklungsmöglichkeiten ohne Neueinstellungen, einfachere Entwicklung für mehrere Plattformen, kostengünstige Nutzung der Tools und effiziente Verwaltung des Anwendungslebenszyklus.",
       importantWords: [
         { german: "PaaS", spanish: "PaaS" },
-        { german: "Anwendungsentwicklung", spanish: "Desarrollo de aplicaciones" },
+        {
+          german: "Anwendungsentwicklung",
+          spanish: "Desarrollo de aplicaciones",
+        },
       ],
     },
   },
@@ -204,9 +241,7 @@ export const sectionC: Card[] = [
       title: "Frage",
       text: "Erkläre den Cloud Computing Begriff Software as a Service (SaaS).",
       difficulty: 2,
-      importantWords: [
-        { german: "SaaS", spanish: "SaaS" },
-      ],
+      importantWords: [{ german: "SaaS", spanish: "SaaS" }],
     },
     answer: {
       title: "Antwort",
@@ -232,9 +267,7 @@ export const sectionC: Card[] = [
     answer: {
       title: "Antwort",
       text: "Ein HBA ist ein Adapter, der eine E/A-Schnittstelle für einen E/A-Prozessor bereitstellt und als Brücke zwischen einem Datenträger und einem Netzwerk fungiert.",
-      importantWords: [
-        { german: "HBA", spanish: "HBA" },
-      ],
+      importantWords: [{ german: "HBA", spanish: "HBA" }],
     },
   },
   {
@@ -244,13 +277,11 @@ export const sectionC: Card[] = [
       title: "Frage",
       text: "Erkläre die RAID-Matrix.",
       difficulty: 2,
-      importantWords: [
-        { german: "RAID", spanish: "RAID" },
-      ],
+      importantWords: [{ german: "RAID", spanish: "RAID" }],
     },
     answer: {
       title: "Antwort",
-      text: "Hier sind die Merkmale der verschiedenen RAID-Typen:\n\n| Merkmal | RAID 0 | RAID 1 | RAID 5 | RAID 6 | RAID 10 |\n|---|---|---|---|---|---|\n| **Redundanz** | nein | ja | ja | ja | ja |\n| **min. Datenträger** | 2 | 2 | ≥ 3 | ≥ 4 | ≥ 4 |\n| **Rechenaufwand** | sehr gering | sehr gering | mittel | hoch | hoch |\n| **Fehlertoleranz Ausfall von Datenträgern** | 0 | 1 | 1 | 2 | 1 (2)* |\n| **Lese-Performance** | +++ | ++ | +++ | +++ | +++ |\n| **Schreib-Performance** | ++ | + | + | + | +++ |\n| **Kapazität Netto** | 100% | 50% | n-1 | n-2 | 50% |\n\n*Abhängig von den \"richtigen\" beiden ausgefallenen Datenträgern.",
+      text: 'Hier sind die Merkmale der verschiedenen RAID-Typen:\n\n| Merkmal | RAID 0 | RAID 1 | RAID 5 | RAID 6 | RAID 10 |\n|---|---|---|---|---|---|\n| **Redundanz** | nein | ja | ja | ja | ja |\n| **min. Datenträger** | 2 | 2 | ≥ 3 | ≥ 4 | ≥ 4 |\n| **Rechenaufwand** | sehr gering | sehr gering | mittel | hoch | hoch |\n| **Fehlertoleranz Ausfall von Datenträgern** | 0 | 1 | 1 | 2 | 1 (2)* |\n| **Lese-Performance** | +++ | ++ | +++ | +++ | +++ |\n| **Schreib-Performance** | ++ | + | + | + | +++ |\n| **Kapazität Netto** | 100% | 50% | n-1 | n-2 | 50% |\n\n*Abhängig von den "richtigen" beiden ausgefallenen Datenträgern.',
       importantWords: [
         { german: "RAID", spanish: "RAID" },
         { german: "Redundanz", spanish: "Redundancia" },
@@ -289,9 +320,7 @@ export const sectionC: Card[] = [
       title: "Frage",
       text: "Welche Aufgabe hat ein Netzwerk-Router?",
       difficulty: 1,
-      importantWords: [
-        { german: "Router", spanish: "Router" },
-      ],
+      importantWords: [{ german: "Router", spanish: "Router" }],
     },
     answer: {
       title: "Antwort",
@@ -354,7 +383,10 @@ export const sectionC: Card[] = [
       difficulty: 1,
       importantWords: [
         { german: "NAS", spanish: "NAS" },
-        { german: "Network Attached Storage", spanish: "Almacenamiento Conectado a la Red" },
+        {
+          german: "Network Attached Storage",
+          spanish: "Almacenamiento Conectado a la Red",
+        },
       ],
     },
     answer: {
@@ -498,7 +530,8 @@ export const sectionC: Card[] = [
         { german: "Nachteile", spanish: "Desventajas" },
       ],
     },
-  },{
+  },
+  {
     number: "86",
     section: "Beurteilen marktgängiger IT-Systeme und Lösungen",
     question: {
@@ -550,7 +583,10 @@ export const sectionC: Card[] = [
       text: "Welche Aufgaben hat ein Domain Name System (DNS) in einer Windows Domänenlandschaft bzw. Active Directory?",
       difficulty: 2,
       importantWords: [
-        { german: "Domain Name System", spanish: "Sistema de nombres de dominio" },
+        {
+          german: "Domain Name System",
+          spanish: "Sistema de nombres de dominio",
+        },
         { german: "Active Directory", spanish: "Active Directory" },
       ],
     },
@@ -558,7 +594,10 @@ export const sectionC: Card[] = [
       title: "Antwort",
       text: "Das Domain Name System (DNS) stellt einen der wichtigsten Dienste in IP-basierten Netzwerken dar. Das Domain Name System dient der Beantwortung von Anfragen zur Namensauflösung. Konkret wird dabei der angefragte Name in eine IP-Adresse übersetzt und als Ergebnis der Anfrage zurück geliefert. In windowsbasierten Domänen kommt zusätzlich der Reverse Lookup Anfrage die Aufgabe zu, eine angefragte IP-Adresse als Namen zu ermitteln und als Ergebnis zurückzuliefern. Dieses Reverse Lookup wird mit Hilfe von PTR Ressource Records in der Reverse Lookup Zone des Active Directory gewährleistet.",
       importantWords: [
-        { german: "Domain Name System", spanish: "Sistema de nombres de dominio" },
+        {
+          german: "Domain Name System",
+          spanish: "Sistema de nombres de dominio",
+        },
         { german: "Namensauflösung", spanish: "Resolución de nombres" },
         { german: "IP-Adresse", spanish: "Dirección IP" },
       ],
@@ -596,7 +635,10 @@ export const sectionC: Card[] = [
       text: "Was bedeutet der Begriff Standby- oder Offline-USV?",
       difficulty: 1,
       importantWords: [
-        { german: "Standby- oder Offline-USV", spanish: "SAI en espera o fuera de línea" },
+        {
+          german: "Standby- oder Offline-USV",
+          spanish: "SAI en espera o fuera de línea",
+        },
       ],
     },
     answer: {
@@ -616,9 +658,7 @@ export const sectionC: Card[] = [
       title: "Frage",
       text: "Was versteht man unter einer Online-USV?",
       difficulty: 1,
-      importantWords: [
-        { german: "Online-USV", spanish: "SAI en línea" },
-      ],
+      importantWords: [{ german: "Online-USV", spanish: "SAI en línea" }],
     },
     answer: {
       title: "Antwort",
@@ -645,7 +685,10 @@ export const sectionC: Card[] = [
       text: "Netzinteraktive unterbrechungsfreie Stromversorgungen (USV-Klasse 2) funktionieren ähnlich wie das Standby-USV Funktionsprinzip. Sie schützen allgemein vor dem Stromausfall sowie vor kurzzeitigen Spannungsspitzen und sind in der Lage, durch Filter Spannungsschwankungen auszugleichen. Im Gegensatz zur Offline-USV liegen die Umschaltzeiten vom Netzbetrieb zum Batteriebetrieb zwischen kurzen 2 bis 4 Millisekunden. Die Umschaltzeit vom Batteriebetrieb zum Netzbetrieb ist nahezu verzögerungsfrei.",
       importantWords: [
         { german: "Netzinteraktive", spanish: "Línea interactiva" },
-        { german: "Spannungsschwankungen", spanish: "Fluctuaciones de tensión" },
+        {
+          german: "Spannungsschwankungen",
+          spanish: "Fluctuaciones de tensión",
+        },
       ],
     },
   },
@@ -658,7 +701,10 @@ export const sectionC: Card[] = [
       difficulty: 1,
       importantWords: [
         { german: "SSID", spanish: "SSID" },
-        { german: "Service Set Identifier", spanish: "Identificador de conjunto de servicios" },
+        {
+          german: "Service Set Identifier",
+          spanish: "Identificador de conjunto de servicios",
+        },
       ],
     },
     answer: {
@@ -701,7 +747,10 @@ export const sectionC: Card[] = [
       text: "Welche Maßnahmen sind geeignet, um die Verarbeitungsgeschwindigkeit eines Personal Computers zu verbessern?",
       difficulty: 2,
       importantWords: [
-        { german: "Verarbeitungsgeschwindigkeit", spanish: "Velocidad de procesamiento" },
+        {
+          german: "Verarbeitungsgeschwindigkeit",
+          spanish: "Velocidad de procesamiento",
+        },
         { german: "Personal Computer", spanish: "Ordenador personal" },
       ],
     },
@@ -722,7 +771,10 @@ export const sectionC: Card[] = [
       text: "Berechne die Gesamtleistungsaufnahme für folgende IT-Landschaft für ein Jahr. Alle Geräte werden 24/7 betrieben. Gib das Ergebnis in Kilowatt an. 10x Server Leistungsaufnahme 800 Watt, 25x Desktop PCs Leistungsaufnahme 350 Watt, 2x Switch Leistungsaufnahme 200 Watt",
       difficulty: 3,
       importantWords: [
-        { german: "Gesamtleistungsaufnahme", spanish: "Consumo total de energía" },
+        {
+          german: "Gesamtleistungsaufnahme",
+          spanish: "Consumo total de energía",
+        },
         { german: "Kilowatt", spanish: "Kilovatio" },
       ],
     },
@@ -742,9 +794,7 @@ export const sectionC: Card[] = [
       title: "Frage",
       text: "Wie berechnet man die Wirkleistung von elektrischen Geräten?",
       difficulty: 1,
-      importantWords: [
-        { german: "Wirkleistung", spanish: "Potencia activa" },
-      ],
+      importantWords: [{ german: "Wirkleistung", spanish: "Potencia activa" }],
     },
     answer: {
       title: "Antwort",
@@ -787,14 +837,20 @@ export const sectionC: Card[] = [
       text: "Was bedeutet der Begriff Serverkonsolidierung?",
       difficulty: 2,
       importantWords: [
-        { german: "Serverkonsolidierung", spanish: "Consolidación de servidores" },
+        {
+          german: "Serverkonsolidierung",
+          spanish: "Consolidación de servidores",
+        },
       ],
     },
     answer: {
       title: "Antwort",
       text: "Serverkonsolidierung ist eine Form der Konsolidierung von Serverressourcen, bei der man auf die Möglichkeiten der Virtualisierung setzt. Mit Hilfe von virtuellen Maschinen (VM) oder virtuellen Umgebungen (Virtual Environment VE) soll eine Energie- und Raumeinsparung durch Reduktion der physikalischen Serversysteme erreicht werden. Kurz gefasst: z. B. 10 physische Server werden durch einen performanten Server ersetzt und die 10 Server virtualisiert.",
       importantWords: [
-        { german: "Serverkonsolidierung", spanish: "Consolidación de servidores" },
+        {
+          german: "Serverkonsolidierung",
+          spanish: "Consolidación de servidores",
+        },
         { german: "Virtualisierung", spanish: "Virtualización" },
       ],
     },
@@ -817,7 +873,10 @@ export const sectionC: Card[] = [
       importantWords: [
         { german: "Geschäftsanforderungen", spanish: "Requisitos de negocio" },
         { german: "Benutzeranforderungen", spanish: "Requisitos de usuario" },
-        { german: "Funktionale Anforderungen", spanish: "Requisitos funcionales" },
+        {
+          german: "Funktionale Anforderungen",
+          spanish: "Requisitos funcionales",
+        },
         { german: "Projektanforderungen", spanish: "Requisitos del proyecto" },
       ],
     },
