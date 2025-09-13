@@ -20,6 +20,7 @@ interface Answer {
 
 export interface Card {
   number: string; 
+  withImage?:boolean;
   section: string; 
   question: Question;
   answer: Answer;

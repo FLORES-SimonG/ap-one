@@ -150,6 +150,110 @@ export const sectionC: Card[] = [
     },
   },
   {
+    number: "53",
+    section: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    withImage: true,
+    question: {
+      title: "Frage",
+      text: "Unternehmen, die ein Rechenzentrum betreiben, setzen vermehrt auf die Vorteile der Virtualisierung. In diesem Zusammenhang wird oftmals der Begriff des Thin-Clients benutzt. Was versteht man unter einem Thin-Client?",
+      difficulty: 1,
+      importantWords: [
+        { german: "Unternehmen", spanish: "empresa" },
+        { german: "Rechenzentrum", spanish: "centro de datos" },
+        { german: "Virtualisierung", spanish: "virtualización" },
+        { german: "Begriff", spanish: "término / concepto" },
+        { german: "Thin-Client", spanish: "cliente ligero" },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Allgemein kann man einen Thin-Client (englisch dünner, schlanker bzw. magerer Client) als einen Computer bezeichnen, welcher über ein Netzwerk Ressourcen nutzt, die ihm ein Server bereitstellt. Die virtuelle Desktop-Infrastruktur (VDI) setzt primär Thin-Clients ein und setzt damit konsequent auf die Vorteile der Virtualisierung des kompletten Rechenzentrums. Thin-Clients oder manchmal auch als Zero-Clients bezeichnet, siehe Bild, sind lüfterlose Geräte welche über USB, einen Netzwerkanschluss, Audio- und Displayanschlüsse verfügen. Die persönliche Benutzeroberfläche, die Konfiguration, Zugriffe auf Verzeichnisse und installierte Programme werden vom Server zur Verfügung gestellt. Thin-Clients sind umwelt- und ressourcenschonend und haben eine geringe Leistungsaufnahme. (ver imagen)",
+      importantWords: [
+        { german: "dünner / schlanker / magerer", spanish: "delgado / ligero" },
+        { german: "Netzwerk", spanish: "red" },
+        { german: "Ressourcen", spanish: "recursos" },
+        { german: "Server", spanish: "servidor" },
+        {
+          german: "virtuelle Desktop-Infrastruktur (VDI)",
+          spanish: "infraestructura de escritorio virtual",
+        },
+        {
+          german: "Zero-Clients",
+          spanish: "clientes cero (dispositivos aún más ligeros)",
+        },
+        { german: "lüfterlos", spanish: "sin ventilador" },
+        { german: "Anschluss", spanish: "conexión / puerto" },
+        { german: "Benutzeroberfläche", spanish: "interfaz de usuario" },
+        { german: "Konfiguration", spanish: "configuración" },
+        { german: "Verzeichnisse", spanish: "directorios" },
+        { german: "Programme", spanish: "programas" },
+        {
+          german: "umweltschonend",
+          spanish: "respetuoso con el medio ambiente",
+        },
+        { german: "ressourcenschonend", spanish: "ahorrador de recursos" },
+        { german: "Leistungsaufnahme", spanish: "consumo energético" },
+      ],
+    },
+  },
+  {
+    number: "54",
+    withImage: false,
+    section: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    question: {
+      title: "Frage",
+      text: "Welche IT-Komponenten sind Ein- oder Ausgabegeräte? Ordne richtig zu!\na) Drucker\nb) Scanner\nc) Maus\nd) Display\ne) Touchpad",
+      difficulty: 1,
+      importantWords: [
+        { german: "IT-Komponenten", spanish: "componentes de TI" },
+        {
+          german: "Ein-/Ausgabegeräte",
+          spanish: "dispositivos de entrada/salida",
+        },
+        { german: "Drucker", spanish: "impresora" },
+        { german: "Scanner", spanish: "escáner" },
+        { german: "Maus", spanish: "ratón" },
+        { german: "Display", spanish: "pantalla" },
+        { german: "Touchpad", spanish: "panel táctil" },
+        { german: "ordnen", spanish: "ordenar / clasificar" },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "a) Drucker → Ausgabegerät\nb) Scanner → Eingabegerät\nc) Maus → Eingabegerät\nd) Display → Ausgabegerät\ne) Touchpad → Eingabegerät",
+      importantWords: [
+        { german: "Eingabegerät", spanish: "dispositivo de entrada" },
+        { german: "Ausgabegerät", spanish: "dispositivo de salida" },
+      ],
+    },
+  },
+  {
+    number: "55",
+    withImage: true,
+    section: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    question: {
+      title: "Frage",
+      text: "Welche Schnittstellen sind auf dem Bild zu sehen? (ver imagen de la carta)",
+      difficulty: 1,
+      importantWords: [
+        { german: "Schnittstellen", spanish: "interfaces / puertos" },
+        { german: "Bild", spanish: "imagen" },
+        { german: "sehen", spanish: "ver" },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Folgende Schnittstellen sind zu sehen: DisplayPort, DVI, VGA, USB-Typ B und 2x USB Typ A. (ver imagen)",
+      importantWords: [
+        { german: "DisplayPort", spanish: "DisplayPort" },
+        { german: "DVI", spanish: "DVI" },
+        { german: "VGA", spanish: "VGA" },
+        { german: "USB-Typ B", spanish: "USB tipo B" },
+        { german: "USB Typ A", spanish: "USB tipo A" },
+      ],
+    },
+  },
+  {
     number: "56",
     section: "Beurteilen marktgängiger IT-Systeme und Lösungen",
     question: {
@@ -188,6 +292,64 @@ export const sectionC: Card[] = [
         { german: "Green-IT", spanish: "Green-IT" },
         { german: "Nachhaltigkeit", spanish: "Sostenibilidad" },
         { german: "Ressourcenschonung", spanish: "Ahorro de recursos" },
+      ],
+    },
+  },
+  {
+    number: "58",
+    withImage: false,
+    section: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    question: {
+      title: "Frage",
+      text: "Erkläre den Begriff des Servicemodells Infrastructure as a Service (laas).",
+      difficulty: 3,
+      importantWords: [
+        {
+          german: "Erkläre",
+          spanish: "Explicar",
+        },
+        {
+          german: "Begriff",
+          spanish: "Término",
+        },
+        {
+          german: "Servicemodells",
+          spanish: "Modelo de servicio",
+        },
+        {
+          german: "Infrastructure as a Service (laas)",
+          spanish: "Infraestructura como servicio (laas)",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Infrastructure as a Service, también llamado Foundation, es esencialmente un reemplazo de los centros de datos tradicionales. El usuario accede típicamente a servicios existentes dentro de su nube, pero gestiona sus propias instancias de computación.",
+      importantWords: [
+        {
+          german: "Ersatz",
+          spanish: "Reemplazo",
+        },
+        {
+          german: "traditionelle Rechenzentren",
+          spanish: "Centros de datos tradicionales",
+        },
+        {
+          german: "Benutzer",
+          spanish: "Usuario",
+        },
+        {
+          german: "bestehende Dienste",
+          spanish: "Servicios existentes",
+        },
+        {
+          german: "verwaltet",
+          spanish: "Gestiona",
+        },
+        {
+          german: "eigene Recheninstanzen",
+          spanish: "propias instancias de computación",
+        },
       ],
     },
   },
@@ -271,7 +433,242 @@ export const sectionC: Card[] = [
     },
   },
   {
+    number: "62",
+    withImage: false,
+    section: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    question: {
+      title: "Frage",
+      text: "Eine unterbrechungsfreie Stromversorgung (USV) wird nach der USV-Klassifizierung nach IEC 62040-3 in 3 Klassen unterteilt. Nenne die 3 Klassen und erkläre deren Wirkungsweise stichpunktartig.",
+      difficulty: 3,
+      importantWords: [
+        {
+          german: "unterbrechungsfreie Stromversorgung (USV)",
+          spanish: "fuente de alimentación ininterrumpida (USV)",
+        },
+        {
+          german: "Klassifizierung",
+          spanish: "clasificación",
+        },
+        {
+          german: "Klassen",
+          spanish: "clases",
+        },
+        {
+          german: "Wirkungsweise",
+          spanish: "modo de funcionamiento",
+        },
+        {
+          german: "stichpunktartig",
+          spanish: "en puntos clave",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Klasse 1: VFI (Voltage and Frequency Independent from mains supply)\nSchützt vor den Folgen eines Stromausfalls, Unterspannung, Überspannung als auch vor Frequenzschwankungen sowie vor Oberschwingungen\nKlasse 2: VI (Voltage Independent from mains supply)\nSchützt vor den Folgen eines Stromausfalls, vor Unterspannung und vor Überspannung\nKlasse 3: VFD (Voltage and Frequency Dependent on mains supply)\nSchützt vor den Folgen eines Stromausfalls, jedoch mit einer Verzögerung von bis zu 10 Millisekunden (ms)",
+      importantWords: [
+        {
+          german: "Stromausfalls",
+          spanish: "corte de energía",
+        },
+        {
+          german: "Unterspannung",
+          spanish: "subtensión",
+        },
+        {
+          german: "Überspannung",
+          spanish: "sobretensión",
+        },
+        {
+          german: "Frequenzschwankungen",
+          spanish: "fluctuaciones de frecuencia",
+        },
+        {
+          german: "Oberschwingungen",
+          spanish: "armónicas",
+        },
+        {
+          german: "Verzögerung",
+          spanish: "retraso",
+        },
+      ],
+    },
+  },
+  {
+    number: "63",
+    withImage: false,
+    section: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    question: {
+      title: "Frage",
+      text: "IT-Infrastrukturen werden heute 7/24 (7 Tage die Woche/24 Stunden, auch 24/7) betrieben. Welche Aufgabe übernimmt in diesem Zusammenhang eine USV?",
+      difficulty: 1,
+      importantWords: [
+        {
+          german: "IT-Infrastrukturen",
+          spanish: "infraestructuras de TI",
+        },
+        {
+          german: "betrieben",
+          spanish: "operadas",
+        },
+        {
+          german: "Aufgabe",
+          spanish: "tarea",
+        },
+        {
+          german: "USV",
+          spanish: "UPS",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Eine unterbrechungsfreie Stromversorgung (USV) soll die elektrische Versorgung der systemrelevanten IT-Komponenten 7/24 sicherstellen sowie Störungen im Stromnetz zeitlich überbrücken. Des Weiteren schützt eine USV, je nach Klassifizierung, die angeschlossenen IT-Komponenten vor folgenden Störungen:\n\n* kompletter Stromausfall\n* vor Unterspannung\n* vor Überspannung\n* vor Frequenzabweichung\n* vor Oberschwingungen",
+      importantWords: [
+        {
+          german: "elektrische Versorgung",
+          spanish: "suministro eléctrico",
+        },
+        {
+          german: "sicherstellen",
+          spanish: "asegurar",
+        },
+        {
+          german: "Störungen",
+          spanish: "interrupciones",
+        },
+        {
+          german: "Stromnetz",
+          spanish: "red eléctrica",
+        },
+        {
+          german: "überbrücken",
+          spanish: "superar temporalmente",
+        },
+        {
+          german: "angeschlossenen",
+          spanish: "conectados",
+        },
+      ],
+    },
+  },
+  {
+    number: "64",
+    withImage: false,
+    section: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    question: {
+      title: "Frage",
+      text: "Welche Aufgabe übernimmt ein Datenbankmanagementsystem, kurz DBMS?",
+      difficulty: 2,
+      importantWords: [
+        {
+          german: "Datenbankmanagementsystem",
+          spanish: "sistema de gestión de bases de datos",
+        },
+        {
+          german: "DBMS",
+          spanish: "SGBD",
+        },
+        {
+          german: "Aufgabe",
+          spanish: "tarea",
+        },
+        {
+          german: "übernimmt",
+          spanish: "asume",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Ein Datenbankmanagementsystem übernimmt folgende Aufgaben:\n\n* Speicherung, Veränderung und Löschung von Daten\n* Verwaltung der Metadaten\n* Gewährleistung der Datensicherheit und des Datenschutzes\n* trifft Vorkehrungen zur Datenintegrität\n* stellt den Mehrbenutzerbetrieb durch das Transaktionskonzept sicher\n* unterstützt die Optimierung von Abfragen\n* ermöglicht Triggern und Stored Procedures\n* Bereitstellung von Informationen über Technik und Betrieb",
+      importantWords: [
+        {
+          german: "Speicherung",
+          spanish: "almacenamiento",
+        },
+        {
+          german: "Veränderung",
+          spanish: "modificación",
+        },
+        {
+          german: "Löschung",
+          spanish: "eliminación",
+        },
+        {
+          german: "Verwaltung",
+          spanish: "gestión",
+        },
+        {
+          german: "Metadaten",
+          spanish: "metadatos",
+        },
+        {
+          german: "Gewährleistung",
+          spanish: "garantía",
+        },
+        {
+          german: "Datensicherheit",
+          spanish: "seguridad de los datos",
+        },
+        {
+          german: "Datenschutz",
+          spanish: "protección de datos",
+        },
+        {
+          german: "Vorkehrungen",
+          spanish: "precauciones",
+        },
+        {
+          german: "Datenintegrität",
+          spanish: "integridad de los datos",
+        },
+        {
+          german: "Mehrbenutzerbetrieb",
+          spanish: "funcionamiento multiusuario",
+        },
+        {
+          german: "Transaktionskonzept",
+          spanish: "concepto de transacción",
+        },
+        {
+          german: "Optimierung",
+          spanish: "optimización",
+        },
+        {
+          german: "Abfragen",
+          spanish: "consultas",
+        },
+        {
+          german: "Triggern",
+          spanish: "disparadores",
+        },
+        {
+          german: "Stored Procedures",
+          spanish: "procedimientos almacenados",
+        },
+        {
+          german: "Bereitstellung",
+          spanish: "provisión",
+        },
+        {
+          german: "Informationen",
+          spanish: "información",
+        },
+        {
+          german: "Technik",
+          spanish: "tecnología",
+        },
+        {
+          german: "Betrieb",
+          spanish: "funcionamiento",
+        },
+      ],
+    },
+  },
+  {
     number: "65",
+    withImage: true,
     section: "Beurteilen marktgängiger IT-Systeme und Lösungen",
     question: {
       title: "Frage",
@@ -395,6 +792,250 @@ export const sectionC: Card[] = [
       importantWords: [
         { german: "NAS", spanish: "NAS" },
         { german: "TCP/IP", spanish: "TCP/IP" },
+      ],
+    },
+  },
+  {
+    number: "71",
+    withImage: false,
+    section: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    question: {
+      title: "Frage",
+      text: "Was ist ein Storage Area Network, kurz SAN?",
+      difficulty: 2,
+      importantWords: [
+        {
+          german: "Storage Area Network (SAN)",
+          spanish: "Red de área de almacenamiento (SAN)",
+        },
+        {
+          german: "kurz",
+          spanish: "abreviado",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Storage Area Network (SAN) bzw. Speichernetzwerk ist die Bezeichnung für ein Netzwerk mit Anbindung an ein Festplattensubsystem, der sogenannten Disk-Arrays oder Tape-Libraries an einem Server. Mit Hilfe der Storage Area Networks werden serielle, kontinuierliche Hochgeschwindigkeitsübertragungen großer Datenmengen ermöglicht, welche über Storage-Controller entweder über Fibre-Channel- oder Ethernet-Verbindungen hergestellt werden. Ein SAN stellt blockbasierten Speicher bereit, der das vom Server bereitgestellte Dateisystem über logische Festplatteneinheiten (LUNs, Logical Unit Number) verbindet.\nBeim NAS erfolgen die Zugriffe über die Protokolle SMB/CIFS oder NFS auf den Datenbestand. Bei einem SAN wird ISCSI, Fibre-Channel, ATA over Ethernet oder InfiniBand genutzt, um auf das Storage Area Networks zuzugreifen. Abhängig vom Dateisystem, z. B. beim VMFS (Virtual Machine File System), sind mehrfach Zugriffe von verschieden Servern möglich.\nDie Festplattensubsysteme stellen über verschiedene RAID-Level, wie RAID 1, 5, 6, 10, 50 und 60 als auch proprietäre Lösungen eine Desaster-Toleranz bzw. Datenredundanz her.",
+      importantWords: [
+        {
+          german: "Speichernetzwerk",
+          spanish: "red de almacenamiento",
+        },
+        {
+          german: "Anbindung",
+          spanish: "conexión",
+        },
+        {
+          german: "Festplattensubsystem",
+          spanish: "subsistema de disco duro",
+        },
+        {
+          german: "Hochgeschwindigkeitsübertragungen",
+          spanish: "transmisiones de alta velocidad",
+        },
+        {
+          german: "blockbasierten Speicher",
+          spanish: "almacenamiento basado en bloques",
+        },
+        {
+          german: "Datenintegrität",
+          spanish: "integridad de los datos",
+        },
+        {
+          german: "RAID-Level",
+          spanish: "niveles RAID",
+        },
+        {
+          german: "Desaster-Toleranz",
+          spanish: "tolerancia a desastres",
+        },
+        {
+          german: "Datenredundanz",
+          spanish: "redundancia de datos",
+        },
+      ],
+    },
+  },
+  {
+    number: "72",
+    withImage: false,
+    section: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    question: {
+      title: "Frage",
+      text: "Das Unternehmensnetzwerk (192.168.30.0) der Software GmbH soll zukünftig in 8 Subnetze unterteilt werden. Wie lautet die korrekte Subnetzmaske und wie viele Host IP-Adressen kann ich zusammen in allen 8 Subnetzen nutzen?",
+      difficulty: 2,
+      importantWords: [
+        {
+          german: "Unternehmensnetzwerk",
+          spanish: "red corporativa",
+        },
+        {
+          german: "unterteilt",
+          spanish: "dividida",
+        },
+        {
+          german: "Subnetze",
+          spanish: "subredes",
+        },
+        {
+          german: "Subnetzmaske",
+          spanish: "máscara de subred",
+        },
+        {
+          german: "Host IP-Adressen",
+          spanish: "direcciones IP de host",
+        },
+        {
+          german: "zusammen",
+          spanish: "en total",
+        },
+        {
+          german: "nutzen",
+          spanish: "usar",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Die richte Lösung lautet:\n8 Subnetze = 2³\nSubnetzmaske: 255.255.255.224 oder /27\nHosts IP Adressen: 240 (8 x 32 (Minus Netz-ID und Broadcastadresse) = 8 x 30 = 240)",
+      importantWords: [
+        {
+          german: "Lösung",
+          spanish: "solución",
+        },
+        {
+          german: "Subnetzmaske",
+          spanish: "máscara de subred",
+        },
+        {
+          german: "Hosts IP Adressen",
+          spanish: "direcciones IP de host",
+        },
+        {
+          german: "Netz-ID",
+          spanish: "ID de red",
+        },
+        {
+          german: "Broadcastadresse",
+          spanish: "dirección de broadcast",
+        },
+      ],
+    },
+  },
+  {
+    number: "73",
+    withImage: false,
+    section: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    question: {
+      title: "Frage",
+      text: "Was bedeutet in der Netzwerktechnologie der Begriff PoE?",
+      difficulty: 2,
+      importantWords: [
+        {
+          german: "Netzwerktechnologie",
+          spanish: "tecnología de red",
+        },
+        {
+          german: "Begriff",
+          spanish: "término",
+        },
+        {
+          german: "PoE",
+          spanish: "PoE",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Power over Ethernet (PoE) bezeichnet ein Verfahren, welches durch die IEEE-Standards definiert ist und mit dem Netzwerkgeräte über das Ethernet-Kabel des lokalen Netzwerks mit Strom versorgt werden können.\nEs gibt verschiedene Standards für PoE, welche in der IEEE 802.3af (PoE), IEEE 802.3at (PoE+), IEEE 802.3bt (4PPoE) sowie IEEE 802.3bu (PoDL) spezifiziert sind.\nTypische Verbraucher für PoE sind:\n\n* IP-Telefonie\n* Wireless Access Points (WAP)\n* IP-Kameras\n* Zeiterfassungsterminals",
+      importantWords: [
+        {
+          german: "Verfahren",
+          spanish: "procedimiento",
+        },
+        {
+          german: "Netzwerkgeräte",
+          spanish: "dispositivos de red",
+        },
+        {
+          german: "Strom versorgt werden",
+          spanish: "suministrar energía",
+        },
+        {
+          german: "lokalen Netzwerks",
+          spanish: "red local",
+        },
+        {
+          german: "Verbraucher",
+          spanish: "consumidores",
+        },
+      ],
+    },
+  },
+  {
+    number: "74",
+    withImage: false,
+    section: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    question: {
+      title: "Frage",
+      text: "Wie lautet die Notation einer isCSI-Verbindung?",
+      difficulty: 3,
+      importantWords: [
+        {
+          german: "Notation",
+          spanish: "notación",
+        },
+        {
+          german: "isCSI-Verbindung",
+          spanish: "conexión iSCSI",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Eine isCSI-Verbindung, die zwischen einem Target und einem Initiator hergestellt werden soll, benötigt jeweils einen iSCSI Qualified Name (IQN). Die IQN stellt somit, vergleichbar einer IP-Adresse für das Ethernet Protokoll, die Adressierung dar.\nDas IQN-Format (iSCSI Qualified Name) hat die folgende Form iqn.yyyy-mm.naming-authority:unique\n\n* iqn (iSCSI Qualified Name)\n* yyyy-mm gibt das Jahr und den Monat an, in dem die Stelle für die Namensvergabe (Naming Authority) erstellt wurde\n* naming-authority:unique (eindeutiger Name) steht für einen beliebigen Namen, z. B. den Namen des Hosts oder des Netzwerkgeräts. Alle zugewiesenen Namen müssen nach der Name Authority mit einem Doppelpunkt getrennt eindeutig sein.\n\nBeispiel:\niqn. 2005-01.com.microsoft.iscsi:name1\niqn.2019-01.com.vmware.storage:name1.99\niqn.2021-02.com.microsoft.Kunden:name.99",
+      importantWords: [
+        {
+          german: "Target",
+          spanish: "destino",
+        },
+        {
+          german: "Initiator",
+          spanish: "iniciador",
+        },
+        {
+          german: "iSCSI Qualified Name (IQN)",
+          spanish: "Nombre cualificado iSCSI (IQN)",
+        },
+        {
+          german: "Adressierung",
+          spanish: "direccionamiento",
+        },
+        {
+          german: "IQN-Format",
+          spanish: "formato IQN",
+        },
+        {
+          german: "Naming Authority",
+          spanish: "autoridad de nomenclatura",
+        },
+        {
+          german: "eindeutiger Name",
+          spanish: "nombre único",
+        },
+        {
+          german: "Beispiel",
+          spanish: "ejemplo",
+        },
+        {
+          german: "getrennt eindeutig",
+          spanish: "separado de forma única",
+        },
+        {
+          german: "zugewiesenen Namen",
+          spanish: "nombres asignados",
+        },
       ],
     },
   },
@@ -528,6 +1169,190 @@ export const sectionC: Card[] = [
       importantWords: [
         { german: "Vorteile", spanish: "Ventajas" },
         { german: "Nachteile", spanish: "Desventajas" },
+      ],
+    },
+  },
+  {
+    number: "81",
+    withImage: false,
+    section: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    question: {
+      title: "Frage",
+      text: "Welche Aufgabe hat das Simple Network Management Protocol, kurz SNMP?",
+      difficulty: 3,
+      importantWords: [
+        {
+          german: "Aufgabe",
+          spanish: "tarea",
+        },
+        {
+          german: "Simple Network Management Protocol (SNMP)",
+          spanish: "Protocolo simple de gestión de red (SNMP)",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: 'Das Simple Network Management Protocol (SNMP; übersetzt „einfaches Netzwerkverwaltungsprotokoll") ist ein Netzwerkprotokoll, welches von der IETF (Internet Engineering Task Force) entwickelt wurde mit dem Ziel, Netzwerkelemente wie Router, Server, Switches, Drucker, Computer, Temperatursensoren und andere SNMP-taugliche Geräte mit Hilfe einer zentralen Management Konsole aus überwachen und steuern zu können.\nSogenannte SNMP-Agenten werden auf den Geräten eingesetzt, um mit der Management Konsole über SNMP-Traps oder GET-REQUEST über den Port 161/UDP bzw. Port 162/UDP (Trap) zu kommunizieren. SNMPv3 ist zurzeit die aktuelle Version von SNMP (Stand 2021).',
+      importantWords: [
+        {
+          german: "Netzwerkprotokoll",
+          spanish: "protocolo de red",
+        },
+        {
+          german: "Netzwerkelemente",
+          spanish: "elementos de red",
+        },
+        {
+          german: "zentralen Management Konsole",
+          spanish: "consola de gestión central",
+        },
+        {
+          german: "überwachen",
+          spanish: "monitorear",
+        },
+        {
+          german: "steuern",
+          spanish: "controlar",
+        },
+        {
+          german: "SNMP-Agenten",
+          spanish: "agentes SNMP",
+        },
+        {
+          german: "eingesetzt",
+          spanish: "utilizados",
+        },
+      ],
+    },
+  },
+  {
+    number: "82",
+    withImage: false,
+    section: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    question: {
+      title: "Frage",
+      text: "Welche Aufgaben hat ein DHCP-Server innerhalb der IT-Infrastruktur?",
+      difficulty: 2,
+      importantWords: [
+        {
+          german: "Aufgaben",
+          spanish: "tareas",
+        },
+        {
+          german: "DHCP-Server",
+          spanish: "servidor DHCP",
+        },
+        {
+          german: "IT-Infrastruktur",
+          spanish: "infraestructura de TI",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Das Dynamic Host Configuration Protocol (DHCP) ist ein Kommunikationsprotokoll, welches Netzwerkgeräten ermöglicht ohne manuelle Konfiguration eine automatische Netzwerkkonfiguration für das lokalen Netz zu erhalten.\nMit Hilfe des DHCPDISCOVER sendet ein Client/Netzwerkgerät ohne IP-Adresse eine Broadcast-Anfrage nach sogenannten Adress-Angeboten an alle verfügbaren DHCP-Server im lokalen Netz. Wenn im lokalen Netz ein DHCP-Server erreichbar ist, antwortet dieser mit einem DHCPOFFER. Im Anschluss fordert der Client im Zuge des Verfahrens mit Hilfe des DHCPREQUEST die angebotene IP-Adresse für einen Lease-Zeitraum an. Dabei wird unterschieden in statische, automatische und dynamische Adresszuweisung.\nDie Adresszuweisung erfolgt über die UDP-Ports 67 und 68.\nZur Netzwerkkonfiguration kann ein DHCP folgende Angaben versenden:\n* IP-Adresse und Netzwerkmaske\n* Default-Gateway\n* DNS-Server, DNS-Context und DNS-Tree\n* Sekundärer DNS-Server\n* Time- und NTP-Server\n* WINS-Server (für Microsoft Windows Clients)\n* Proxy-Konfiguration via WPAD\n* weitere DHCP Optionen z. B. Angaben für PXE-Boo",
+      importantWords: [
+        {
+          german: "Kommunikationsprotokoll",
+          spanish: "protocolo de comunicación",
+        },
+        {
+          german: "Netzwerkkonfiguration",
+          spanish: "configuración de red",
+        },
+        {
+          german: "manuelle Konfiguration",
+          spanish: "configuración manual",
+        },
+        {
+          german: "Broadcast-Anfrage",
+          spanish: "solicitud de difusión",
+        },
+        {
+          german: "Adress-Angeboten",
+          spanish: "ofertas de direcciones",
+        },
+        {
+          german: "Lease-Zeitraum",
+          spanish: "período de alquiler",
+        },
+        {
+          german: "Adresszuweisung",
+          spanish: "asignación de direcciones",
+        },
+      ],
+    },
+  },
+  {
+    number: "83",
+    withImage: true,
+    section: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    question: {
+      title: "Frage",
+      text: "Bitte vergleiche die Protokolle UDP und TCP miteinander und fülle die folgende Tabelle aus.",
+      difficulty: 3,
+      importantWords: [
+        {
+          german: "vergleiche",
+          spanish: "comparar",
+        },
+        {
+          german: "Protokolle",
+          spanish: "protocolos",
+        },
+        {
+          german: "ausfüllen",
+          spanish: "llenar",
+        },
+        {
+          german: "Tabelle",
+          spanish: "tabla",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "(revisar tarjeta 83)",
+      importantWords: [
+        {
+          german: "Tabelle",
+          spanish: "tabla",
+        },
+      ],
+    },
+  },
+  {
+    number: "84",
+    withImage: false,
+    section: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    question: {
+      title: "Frage",
+      text: "Welche verkürzte Schreibweise der IPv6-Adresse 2001:0db8:0f3c:00d7:7dab:03d0:0000:00ff sind erlaubt?\n\n1. 2001:db8:f3c:d7:7dab:3d:0:ff\n2. 2001:db8:f3c:d7:7dab:3d0:0:ff\n3. 2001:db8:f3c:d7:7dab:3d0::ff\n4. 2001:0db8:0f3c:00d7:7dab:03d::00ff",
+      difficulty: 2,
+      importantWords: [
+        {
+          german: "verkürzte Schreibweise",
+          spanish: "notación abreviada",
+        },
+        {
+          german: "IPv6-Adresse",
+          spanish: "dirección IPv6",
+        },
+        {
+          german: "erlaubt",
+          spanish: "permitidas",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "2 und 3",
+      importantWords: [
+        {
+          german: "Lösung",
+          spanish: "solución",
+        },
       ],
     },
   },
