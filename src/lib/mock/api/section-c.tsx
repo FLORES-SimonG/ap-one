@@ -1357,6 +1357,92 @@ export const sectionC: Card[] = [
     },
   },
   {
+    number: "85",
+    withImage: false,
+    section: "Beurteilen marktgängiger IT-Systeme und Lösungen",
+    question: {
+      title: "Frage",
+      text: "Was versteht man im Netzwerkbereich unter dem Quality of Service?",
+      difficulty: 1,
+      importantWords: [
+        {
+          german: "Netzwerkbereich",
+          spanish: "área de red",
+        },
+        {
+          german: "Quality of Service",
+          spanish: "Calidad de Servicio",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Der Quality of service (QoS) bezeichnet eine Art Güte bzw. Qualität eines Dienstes, welche über IP-Netzwerke genutzt wird. Spezielle Echtzeitanwendungen wie Video- oder Sprachkommunikation über IP-Netze unterliegen vielen Qualitätsbeeinträchtigungen. Um diesen Qualitätsbeeinträchtigungen wie Latenz, Jitter und Paketverlust entgegenzuwirken, gibt es verschiedene Möglichkeiten durch Priorisierung des Datenverkehrs, der Datenratenreservierung, der Datenratenlimitierung sowie durch Paketoptimierung die Güte der Datenkommunikation zu verbessern. Das Type of Service (ToS) ist ein im IP-Header des IPv4 Ethernet Frame reserviertes Feld von 1 Byte Größe, welches zur Priorisierung von IP-Datenpaketen gesetzt und ausgewertet werden kann.",
+      importantWords: [
+        {
+          german: "Güte",
+          spanish: "calidad",
+        },
+        {
+          german: "Qualität",
+          spanish: "calidad",
+        },
+        {
+          german: "Echtzeitanwendungen",
+          spanish: "aplicaciones en tiempo real",
+        },
+        {
+          german: "Qualitätsbeeinträchtigungen",
+          spanish: "deficiencias de calidad",
+        },
+        {
+          german: "Latenz",
+          spanish: "latencia",
+        },
+        {
+          german: "Jitter",
+          spanish: "fluctuación",
+        },
+        {
+          german: "Paketverlust",
+          spanish: "pérdida de paquetes",
+        },
+        {
+          german: "Priorisierung",
+          spanish: "priorización",
+        },
+        {
+          german: "Datenratenreservierung",
+          spanish: "reserva de velocidad de datos",
+        },
+        {
+          german: "Datenratenlimitierung",
+          spanish: "limitación de velocidad de datos",
+        },
+        {
+          german: "Paketoptimierung",
+          spanish: "optimización de paquetes",
+        },
+        {
+          german: "Datenkommunikation",
+          spanish: "comunicación de datos",
+        },
+        {
+          german: "Type of Service (ToS)",
+          spanish: "Tipo de Servicio (ToS)",
+        },
+        {
+          german: "IP-Header",
+          spanish: "encabezado IP",
+        },
+        {
+          german: "IPv4 Ethernet Frame",
+          spanish: "trama Ethernet IPv4",
+        },
+      ],
+    },
+  },
+  {
     number: "86",
     section: "Beurteilen marktgängiger IT-Systeme und Lösungen",
     question: {
