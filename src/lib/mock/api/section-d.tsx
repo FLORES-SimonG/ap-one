@@ -1067,4 +1067,652 @@ export const sectionD: Card[] = [
       ],
     },
   },
+  {
+    number: "136",
+    withImage: false,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Welche Merkmale hat ein Virtual Private Network (VPN)?",
+      difficulty: 2,
+      importantWords: [
+        {
+          german: "Merkmale",
+          spanish: "características",
+        },
+        {
+          german: "Virtual Private Network (VPN)",
+          spanish: "Red privada virtual (VPN)",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Ein Virtual Private Network (VPN), deutsch virtuelles privates Netzwerk, ist ein logisches Netzwerk, welches eine geschützte Netzwerkverbindung unter Nutzung öffentlicher Netzwerke herstellt. Mit Hilfe von Verschlüsselungstechnologien soll über eine VPN-Verbindung die Authentizität, die Vertraulichkeit und die Integrität der Daten sichergestellt werden. Um die Datensicherheit zu gewährleisten, gibt es eine Reihe von Protokollen und Lösungen wie L2TP over IPsec, SSL-VPN, OpenVPN und Layer-2-VPN. Das Virtual Private Network wird grundsätzlich in 3 Verbindungsarten unterteilt:\n\n* End-to-Site\n* Site-to-Site\n* End-to-End",
+      importantWords: [
+        {
+          german: "geschützte Netzwerkverbindung",
+          spanish: "conexión de red protegida",
+        },
+        {
+          german: "öffentlicher Netzwerke",
+          spanish: "redes públicas",
+        },
+        {
+          german: "Verschlüsselungstechnologien",
+          spanish: "tecnologías de cifrado",
+        },
+        {
+          german: "Authentizität",
+          spanish: "autenticidad",
+        },
+        {
+          german: "Vertraulichkeit",
+          spanish: "confidencialidad",
+        },
+        {
+          german: "Integrität",
+          spanish: "integridad",
+        },
+        {
+          german: "Datensicherheit",
+          spanish: "seguridad de datos",
+        },
+        {
+          german: "Protokollen",
+          spanish: "protocolos",
+        },
+        {
+          german: "Verbindungsarten",
+          spanish: "tipos de conexión",
+        },
+        {
+          german: "End-to-Site",
+          spanish: "extremo a sitio",
+        },
+        {
+          german: "Site-to-Site",
+          spanish: "sitio a sitio",
+        },
+        {
+          german: "End-to-End",
+          spanish: "extremo a extremo",
+        },
+      ],
+    },
+  },
+  {
+    number: "137",
+    withImage: false,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Beim Einsatz eines WLANs im Unternehmen ist besondere Sorgfalt auf die Einhaltung der Datensicherheit zu legen. Welche Sicherheitsmethoden und Verschlüsselungsstandards können zum Einsatz kommen?",
+      difficulty: 3,
+      importantWords: [
+        {
+          german: "WLAN",
+          spanish: "WLAN",
+        },
+        {
+          german: "Datensicherheit",
+          spanish: "seguridad de los datos",
+        },
+        {
+          german: "Sicherheitsmethoden",
+          spanish: "métodos de seguridad",
+        },
+        {
+          german: "Verschlüsselungsstandards",
+          spanish: "estándares de cifrado",
+        },
+        {
+          german: "Einsatz",
+          spanish: "uso",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Sicherheitsmethoden:\n\n* WPA (gilt als unsicher)\n* WPA2-Personal/Enterprise\n* WPA3- Personal/ Enterprise\n* Radius\n\nVerschlüsselungsstandards:\n\n* Advanced Encryption Standard (AES)\n* Temporal Key Integrity Protocol (TKIP)\n* Simultaneous Authentication of Equals (SAE)",
+      importantWords: [
+        {
+          german: "Sicherheitsmethoden",
+          spanish: "métodos de seguridad",
+        },
+        {
+          german: "Verschlüsselungsstandards",
+          spanish: "estándares de cifrado",
+        },
+        {
+          german: "unsicher",
+          spanish: "inseguro",
+        },
+      ],
+    },
+  },
+  {
+    number: "138",
+    withImage: true,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Welches Befehlszeilenkommando wurde im Bild ausgeführt? Erläutere die Funktion des Protokolls.",
+      difficulty: 1,
+      importantWords: [
+        {
+          german: "Befehlszeilenkommando",
+          spanish: "comando de línea de comandos",
+        },
+        {
+          german: "ausgeführt",
+          spanish: "ejecutado",
+        },
+        {
+          german: "Funktion",
+          spanish: "función",
+        },
+        {
+          german: "Protokolls",
+          spanish: "protocolo",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Es handelt sich um das Address Resolution Protocol (ARP), welches ein Netzwerkprotokoll ist, das zu einer Netzwerkadresse (OSI Modell Schicht 3) die physische Adresse (MAC-Adresse) des Netzwerkinterfaces (OSI-Modell Schicht 2) ermittelt und diese Zuordnung im sogenannten ARP-Cache ablegt und zwischenspeichert. (siehe Karte 138)",
+      importantWords: [
+        {
+          german: "Address Resolution Protocol (ARP)",
+          spanish: "Protocolo de resolución de direcciones (ARP)",
+        },
+        {
+          german: "Netzwerkprotokoll",
+          spanish: "protocolo de red",
+        },
+        {
+          german: "Netzwerkadresse",
+          spanish: "dirección de red",
+        },
+        {
+          german: "physische Adresse (MAC-Adresse)",
+          spanish: "dirección física (dirección MAC)",
+        },
+        {
+          german: "ermittelt",
+          spanish: "determina",
+        },
+        {
+          german: "ARP-Cache",
+          spanish: "caché ARP",
+        },
+      ],
+    },
+  },
+  {
+    number: "139",
+    withImage: false,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Welche Vorteile ergeben sich durch den Einsatz eines Virtual Local Area Networks (VLAN)?",
+      difficulty: 3,
+      importantWords: [
+        {
+          german: "Vorteile",
+          spanish: "ventajas",
+        },
+        {
+          german: "Einsatz",
+          spanish: "uso",
+        },
+        {
+          german: "Virtual Local Area Networks (VLAN)",
+          spanish: "Red de área local virtual (VLAN)",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "In einem VLAN können folgende Vorteile genutzt werden:\n\n* physikalische Netztopologie kann in logische Gruppen unterteilt werden\n* Priorisierungen des Datenverkehrs sind möglich\n* eine bessere Lastverteilung ist möglich\n* Unterteilung in Broadcastdomänen, dadurch weniger Kollisionsbereiche\n* flexiblere Anpassung von Gruppenzugehörigkeiten\n* Trennung des Datenverkehrs nach spezifischen Anwendungen",
+      importantWords: [
+        {
+          german: "physikalische Netztopologie",
+          spanish: "topología de red física",
+        },
+        {
+          german: "logische Gruppen",
+          spanish: "grupos lógicos",
+        },
+        {
+          german: "unterteilt",
+          spanish: "dividida",
+        },
+        {
+          german: "Priorisierungen",
+          spanish: "priorizaciones",
+        },
+        {
+          german: "Datenverkehrs",
+          spanish: "tráfico de datos",
+        },
+        {
+          german: "Lastverteilung",
+          spanish: "distribución de carga",
+        },
+        {
+          german: "Unterteilung",
+          spanish: "subdivisión",
+        },
+        {
+          german: "Broadcastdomänen",
+          spanish: "dominios de difusión",
+        },
+        {
+          german: "Kollisionsbereiche",
+          spanish: "áreas de colisión",
+        },
+        {
+          german: "flexiblere Anpassung",
+          spanish: "adaptación más flexible",
+        },
+        {
+          german: "Gruppenzugehörigkeiten",
+          spanish: "pertenencias a grupos",
+        },
+        {
+          german: "Trennung",
+          spanish: "separación",
+        },
+        {
+          german: "spezifischen Anwendungen",
+          spanish: "aplicaciones específicas",
+        },
+      ],
+    },
+  },
+  {
+    number: "140",
+    withImage: true,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Welches Befehlszeilenkommando wurde hier ausgeführt?",
+      difficulty: 1,
+      importantWords: [
+        {
+          german: "Befehlszeilenkommando",
+          spanish: "comando de línea de comandos",
+        },
+        {
+          german: "ausgeführt",
+          spanish: "ejecutado",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Es handelt sich um den Befehl tracert. (siehe Karte 140)",
+      importantWords: [
+        {
+          german: "Befehl",
+          spanish: "comando",
+        },
+        {
+          german: "tracert",
+          spanish: "tracert",
+        },
+      ],
+    },
+  },
+  {
+    number: "141",
+    withImage: true,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Welches Befehlszeilenkommando wurde hier ausgeführt?",
+      difficulty: 1,
+      importantWords: [
+        {
+          german: "Befehlszeilenkommando",
+          spanish: "comando de línea de comandos",
+        },
+        {
+          german: "ausgeführt",
+          spanish: "ejecutado",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Es handelt sich um den Befehl nslookup. (siehe Karte 141)",
+      importantWords: [
+        {
+          german: "Befehl",
+          spanish: "comando",
+        },
+        {
+          german: "nslookup",
+          spanish: "nslookup",
+        },
+      ],
+    },
+  },
+  {
+    number: "142",
+    withImage: true,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Welches Befehlszeilenkommando wurde hier ausgeführt?",
+      difficulty: 1,
+      importantWords: [
+        {
+          german: "Befehlszeilenkommando",
+          spanish: "comando de línea de comandos",
+        },
+        {
+          german: "ausgeführt",
+          spanish: "ejecutado",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Es handelt sich um den Befehl getmac -v. (siehe Karte 142)",
+      importantWords: [
+        {
+          german: "Befehl",
+          spanish: "comando",
+        },
+        {
+          german: "getmac -v",
+          spanish: "getmac -v",
+        },
+      ],
+    },
+  },
+  {
+    number: "143",
+    withImage: true,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Welches Befehlszeilenkommando wurde hier ausgeführt?",
+      difficulty: 1,
+      importantWords: [
+        {
+          german: "Befehlszeilenkommando",
+          spanish: "comando de línea de comandos",
+        },
+        {
+          german: "ausgeführt",
+          spanish: "ejecutado",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Es handelt sich um den Befehl ipconfig /all. (siehe Karte 143)",
+      importantWords: [
+        {
+          german: "Befehl",
+          spanish: "comando",
+        },
+        {
+          german: "ipconfig /all",
+          spanish: "ipconfig /all",
+        },
+      ],
+    },
+  },
+  {
+    number: "144",
+    withImage: false,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Welche Aufgabe erfüllt das Befehlszeilenkommando ARP?",
+      difficulty: 2,
+      importantWords: [
+        {
+          german: "Befehlszeilenkommando",
+          spanish: "comando de línea de comandos",
+        },
+        {
+          german: "ARP",
+          spanish: "ARP",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: 'Mithilfe des Address Resolution Protocols (ARP) wird zur IP-Adresse die zugehörige Hardware- bzw. MAC-Adresse des Netzwerkinterfaces (NIC) eines Hosts ermittelt. Dazu sendet der Host einen ARP-Request mit der MAC-Adresse „FF-FF-FF-FF-FF-FF" auf der Schicht 2, der Sicherungsschicht des OSI-Schichtenmodells, per Broadcast an die zu ermittelnde Adresse und bekommt via ARP-Reply die ermittelte MAC-Adresse an den Sender zurück gesendet. Die ermittelte MAC-Adresse wird dann im lokalen ARP-Cache des Senders für eine gewisse Zeit gespeichert. Dieser ARP-Cache dient zur schnelleren ARP-Adressauflösung.',
+      importantWords: [
+        {
+          german: "Address Resolution Protocols (ARP)",
+          spanish: "Protocolo de resolución de direcciones (ARP)",
+        },
+        {
+          german: "IP-Adresse",
+          spanish: "dirección IP",
+        },
+        {
+          german: "Hardware- bzw. MAC-Adresse",
+          spanish: "dirección de hardware o MAC",
+        },
+        {
+          german: "Netzwerkinterfaces (NIC)",
+          spanish: "interfaz de red (NIC)",
+        },
+        {
+          german: "ermittelt",
+          spanish: "determina",
+        },
+        {
+          german: "ARP-Request",
+          spanish: "solicitud ARP",
+        },
+        {
+          german: "OSI-Schichtenmodells",
+          spanish: "modelo de capas OSI",
+        },
+        {
+          german: "Broadcast",
+          spanish: "difusión",
+        },
+        {
+          german: "ARP-Reply",
+          spanish: "respuesta ARP",
+        },
+        {
+          german: "ARP-Cache",
+          spanish: "caché ARP",
+        },
+        {
+          german: "Adressauflösung",
+          spanish: "resolución de direcciones",
+        },
+      ],
+    },
+  },
+  {
+    number: "145",
+    withImage: true,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Beschreibe die Aufgabe und Funktionsweise des Befehlszeilenkommandos chmod in einem Linux-Betriebssystem.",
+      difficulty: 1,
+      importantWords: [
+        {
+          german: "Aufgabe",
+          spanish: "tarea",
+        },
+        {
+          german: "Funktionsweise",
+          spanish: "funcionamiento",
+        },
+        {
+          german: "Befehlszeilenkommando",
+          spanish: "comando de línea de comandos",
+        },
+        {
+          german: "chmod",
+          spanish: "chmod",
+        },
+        {
+          german: "Linux-Betriebssystem",
+          spanish: "sistema operativo Linux",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Das Linux/Unix-Kommando **chmod** (englisch: **change mode**) ist ein Kommandozeilenprogramm, mit dem sich die Linux-/Unix-Dateirechte anpassen lassen. Diese Dateirechte sind in 3 Gruppen unterteilt: **User**, **Group** und **Others**. Die Attributsänderungen können nur vom Dateibesitzer oder dem **root**-Benutzer durchgeführt werden. Die Rechte umfassen: **r** = lesen (**read**), **w** = schreiben (**write**), **x** = ausführen (**execute**). Neben der symbolischen Notation mit Buchstaben existiert noch die oktale Notation, die in der Tabelle auf der Karte dargestellt ist. Beispiel für die Darstellung der Dateirechte der Datei test.txt: -rwxrwxrwx 2 root 4096 Sep 22 08:32 test.txt",
+      importantWords: [
+        {
+          german: "Kommando",
+          spanish: "comando",
+        },
+        {
+          german: "Dateirechte",
+          spanish: "derechos de archivo",
+        },
+        {
+          german: "anpassen",
+          spanish: "ajustar",
+        },
+        {
+          german: "User",
+          spanish: "Usuario",
+        },
+        {
+          german: "Group",
+          spanish: "Grupo",
+        },
+        {
+          german: "Others",
+          spanish: "Otros",
+        },
+        {
+          german: "Dateibesitzer",
+          spanish: "propietario del archivo",
+        },
+        {
+          german: "root-Benutzer",
+          spanish: "usuario root",
+        },
+        {
+          german: "lesen",
+          spanish: "leer",
+        },
+        {
+          german: "schreiben",
+          spanish: "escribir",
+        },
+        {
+          german: "ausführen",
+          spanish: "ejecutar",
+        },
+        {
+          german: "symbolischen Notation",
+          spanish: "notación simbólica",
+        },
+        {
+          german: "oktale Notation",
+          spanish: "notación octal",
+        },
+        {
+          german: "Tabelle",
+          spanish: "tabla",
+        },
+      ],
+    },
+  },
+  {
+    number: "146",
+    withImage: false,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Festplatten unterliegen unterschiedlichen Einflüssen, welche sich auf die Lebensdauer von Datenträgern auswirken. Was bedeutet in diesem Zusammenhang S.M.A.R.T.?",
+      difficulty: 3,
+      importantWords: [
+        {
+          german: "Festplatten",
+          spanish: "discos duros",
+        },
+        {
+          german: "Einflüssen",
+          spanish: "influencias",
+        },
+        {
+          german: "Lebensdauer",
+          spanish: "vida útil",
+        },
+        {
+          german: "Datenträgern",
+          spanish: "soportes de datos",
+        },
+        {
+          german: "S.M.A.R.T.",
+          spanish: "S.M.A.R.T.",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Die Self-Monitoring, Analysis and Reporting Technology (S.M.A.R.T., deutsch System zur Selbstüberwachung, Analyse und Statusmeldung) ist ein standardisiertes Überwachungswerkzeug von Datenträgern (HDD/SSD). Sie dient dazu, frühzeitige Vorhersagen über einen möglichen Ausfall des gesamten Datenträgers oder dem Ausfall einzelner Speicherblöcke zu treffen. Mithilfe sogenannter SMART-Attribute, welche nicht standardisiert sind, können Werte wie Temperatur, Einschaltzeit, Laufzeit, Bad-Blocks etc. vom Datenträger ausgelesen werden.",
+      importantWords: [
+        {
+          german:
+            "Self-Monitoring, Analysis and Reporting Technology (S.M.A.R.T.)",
+          spanish:
+            "Tecnología de Autocontrol, Análisis y Notificación (S.M.A.R.T.)",
+        },
+        {
+          german: "standardisiertes Überwachungswerkzeug",
+          spanish: "herramienta de monitorización estandarizada",
+        },
+        {
+          german: "Datenträgern (HDD/SSD)",
+          spanish: "soportes de datos (HDD/SSD)",
+        },
+        {
+          german: "Ausfall",
+          spanish: "fallo",
+        },
+        {
+          german: "Speicherblöcke",
+          spanish: "bloques de memoria",
+        },
+        {
+          german: "SMART-Attribute",
+          spanish: "atributos SMART",
+        },
+        {
+          german: "Temperatur",
+          spanish: "temperatura",
+        },
+        {
+          german: "Einschaltzeit",
+          spanish: "tiempo de encendido",
+        },
+        {
+          german: "Laufzeit",
+          spanish: "tiempo de funcionamiento",
+        },
+        {
+          german: "Bad-Blocks",
+          spanish: "bloques defectuosos",
+        },
+        {
+          german: "ausgelesen",
+          spanish: "leídos",
+        },
+      ],
+    },
+  },
 ];
