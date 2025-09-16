@@ -765,6 +765,43 @@ export const sectionF: Card[] = [
     },
   },
   {
+    number: "189",
+    withImage: false,
+    section: "IT-Sicherheit und Datenschutz, Ergonomie",
+    question: {
+      title: "Frage",
+      text: "Erläutere den Unterschied zwischen einem differentiellen und inkrementellen Backup.",
+      difficulty: 2,
+      importantWords: [
+        { german: "Erläutere", spanish: "explica" },
+        { german: "Unterschied", spanish: "diferencia" },
+        {
+          german: "differentielles Backup",
+          spanish: "copia de seguridad diferencial",
+        },
+        {
+          german: "inkrementelles Backup",
+          spanish: "copia de seguridad incremental",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Differentielles Backup\nEin differentielles Backup ist eine Datensicherungsform, bei der – ausgehend von einem Vollbackup – alle Dateien kopiert werden, die seit der letzten vollständigen Sicherung verändert wurden oder neu hinzugekommen sind.\nBeim vollständigen Wiederherstellen der Daten benötigt man zuerst das letzte Vollbackup und danach das letzte differentielle Backup.\n\nInkrementelles Backup\nEin inkrementelles Backup ist eine Datensicherungsform, bei der – ausgehend von einem Vollbackup – nur die Dateien, die seit der letzten inkrementellen Sicherung verändert wurden oder neu hinzugekommen sind, kopiert werden.\nBeim vollständigen Wiederherstellen der Daten benötigt man zunächst das letzte Vollbackup und danach in der richtigen Reihenfolge die jeweiligen inkrementellen Backups.",
+      importantWords: [
+        { german: "Vollbackup", spanish: "copia de seguridad completa" },
+        { german: "Dateien", spanish: "archivos" },
+        { german: "verändert", spanish: "modificado" },
+        { german: "neu hinzugekommen", spanish: "añadido nuevo" },
+        {
+          german: "vollständiges Wiederherstellen",
+          spanish: "restauración completa",
+        },
+        { german: "Reihenfolge", spanish: "orden / secuencia" },
+      ],
+    },
+  },
+  {
     number: "190",
     withImage: false,
     section: "IT-Sicherheit und Datenschutz, Ergonomie",
