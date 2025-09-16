@@ -1715,4 +1715,1508 @@ export const sectionD: Card[] = [
       ],
     },
   },
+  {
+    number: "147",
+    withImage: false,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Die Installation eines Windows Betriebssystems auf einem Intel-PC benötigt einige logische Schritte. Bringe die folgenden Schritte in die richtige Reihenfolge.\n\na ) Bootreihenfolge für Installationsmedium festlegen\nb ) P.O.S.T.\nc ) Benutzer + Passwort anlegen\nd) EULA lesen und akzeptieren\ne ) Filesystem formatieren\nf) Filesystem anlegen\ng) Benutzerprofile für das 1. Login erzeugen\nh) Installationsmedium einlegen",
+      difficulty: 2,
+      importantWords: [
+        {
+          german: "Installation",
+          spanish: "instalación",
+        },
+        {
+          german: "Betriebssystems",
+          spanish: "sistema operativo",
+        },
+        {
+          german: "logische Schritte",
+          spanish: "pasos lógicos",
+        },
+        {
+          german: "Reihenfolge",
+          spanish: "orden",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Die richtige Reihenfolge lautet:\n\n1. b) P.O.S.T.\n2. a) Bootreihenfolge für das Installationsmedium festlegen\n3. h) Installationsmedium einlegen\n4. d) EULA lesen und akzeptieren\n5. f) Filesystem anlegen\n6. e) Filesystem formatieren\n7. c) Benutzer + Passwort anlegen\n8. g) Benutzerprofile für das 1. Login erzeugen",
+      importantWords: [
+        {
+          german: "P.O.S.T.",
+          spanish: "P.O.S.T.",
+        },
+        {
+          german: "Bootreihenfolge",
+          spanish: "orden de arranque",
+        },
+        {
+          german: "Installationsmedium",
+          spanish: "medio de instalación",
+        },
+        {
+          german: "EULA",
+          spanish: "EULA",
+        },
+        {
+          german: "Filesystem anlegen",
+          spanish: "crear sistema de archivos",
+        },
+        {
+          german: "Filesystem formatieren",
+          spanish: "formatear sistema de archivos",
+        },
+        {
+          german: "Benutzer",
+          spanish: "usuario",
+        },
+        {
+          german: "Passwort",
+          spanish: "contraseña",
+        },
+        {
+          german: "Benutzerprofile",
+          spanish: "perfiles de usuario",
+        },
+        {
+          german: "Login",
+          spanish: "inicio de sesión",
+        },
+      ],
+    },
+  },
+  {
+    number: "148",
+    withImage: false,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Welche Kommandos oder Werkzeugen kennst du, um unter Linux eine IPv4-Adresse eines Netzwerkadapters anzuzeigen?",
+      difficulty: 2,
+      importantWords: [
+        {
+          german: "Kommandos",
+          spanish: "comandos",
+        },
+        {
+          german: "Werkzeugen",
+          spanish: "herramientas",
+        },
+        {
+          german: "Linux",
+          spanish: "Linux",
+        },
+        {
+          german: "IPv4-Adresse",
+          spanish: "dirección IPv4",
+        },
+        {
+          german: "Netzwerkadapters",
+          spanish: "adaptador de red",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Grafische Werkzeuge:\n\n* Netzwerkmanager (Debian, CentOS, SUSE)\n* nmtui (CentOS), Wicd (Debian), YaST (SUSE)\n\nConsole:\n\n* ifconfig\n* ip addr show\n* ip a",
+      importantWords: [
+        {
+          german: "Grafische Werkzeuge",
+          spanish: "herramientas gráficas",
+        },
+        {
+          german: "Console",
+          spanish: "consola",
+        },
+        {
+          german: "ifconfig",
+          spanish: "ifconfig",
+        },
+        {
+          german: "ip addr show",
+          spanish: "ip addr show",
+        },
+        {
+          german: "ip a",
+          spanish: "ip a",
+        },
+      ],
+    },
+  },
+  {
+    number: "149",
+    withImage: false,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Netsh ist ein Kommandozeilenwerkzeug für Netzwerkeinstellungen auf windowsbasierten Computern. Wie lautet das Kommando zum Einrichten einer IPv4 Netzwerkadresse 192.168.0.1/24 mit einem Gateway 192.168.0.254 für den Netzwerkadapter „LAN-Verbindung“?",
+      difficulty: 3,
+      importantWords: [
+        {
+          german: "Kommandozeilenwerkzeug",
+          spanish: "herramienta de línea de comandos",
+        },
+        {
+          german: "Netzwerkeinstellungen",
+          spanish: "configuración de red",
+        },
+        {
+          german: "windowsbasierten Computern",
+          spanish: "ordenadores con Windows",
+        },
+        {
+          german: "Kommando",
+          spanish: "comando",
+        },
+        {
+          german: "Einrichten",
+          spanish: "configurar",
+        },
+        {
+          german: "IPv4 Netzwerkadresse",
+          spanish: "dirección de red IPv4",
+        },
+        {
+          german: "Gateway",
+          spanish: "puerta de enlace",
+        },
+        {
+          german: "Netzwerkadapter",
+          spanish: "adaptador de red",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: 'PowerShell oder Eingabeaufforderung als Administrator öffnen: netsh interface ip set address name="LAN-Verbindung" address=192.168.0.2 mask=255.255.255.0 gateway=192.168.0.254',
+      importantWords: [
+        {
+          german: "PowerShell",
+          spanish: "PowerShell",
+        },
+        {
+          german: "Eingabeaufforderung",
+          spanish: "Símbolo del sistema",
+        },
+        {
+          german: "Administrator",
+          spanish: "administrador",
+        },
+        {
+          german: "öffnen",
+          spanish: "abrir",
+        },
+      ],
+    },
+  },
+  {
+    number: "150",
+    withImage: false,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Welche primitiven Datentypen kennst du in der Java-Anwendungsentwicklung?",
+      difficulty: 1,
+      importantWords: [
+        {
+          german: "primitiven Datentypen",
+          spanish: "tipos de datos primitivos",
+        },
+        {
+          german: "Java-Anwendungsentwicklung",
+          spanish: "desarrollo de aplicaciones Java",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Ganzzahlen:\n\n* int\n* byte\n* short\n* long\n\nFließkomma:\n\n* float\n* double\n\nWeitere Datentypen:\n\n* boolean\n* char",
+      importantWords: [
+        {
+          german: "Ganzzahlen",
+          spanish: "números enteros",
+        },
+        {
+          german: "int",
+          spanish: "int",
+        },
+        {
+          german: "byte",
+          spanish: "byte",
+        },
+        {
+          german: "short",
+          spanish: "short",
+        },
+        {
+          german: "long",
+          spanish: "long",
+        },
+        {
+          german: "Fließkomma",
+          spanish: "coma flotante",
+        },
+        {
+          german: "float",
+          spanish: "float",
+        },
+        {
+          german: "double",
+          spanish: "double",
+        },
+        {
+          german: "Weitere Datentypen",
+          spanish: "otros tipos de datos",
+        },
+        {
+          german: "boolean",
+          spanish: "boolean",
+        },
+        {
+          german: "char",
+          spanish: "char",
+        },
+      ],
+    },
+  },
+  {
+    number: "151",
+    withImage: false,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Welchen Nutzen hat ein Framework in der Anwendungsentwicklung?",
+      difficulty: 2,
+      importantWords: [
+        {
+          german: "Nutzen",
+          spanish: "utilidad",
+        },
+        {
+          german: "Framework",
+          spanish: "framework",
+        },
+        {
+          german: "Anwendungsentwicklung",
+          spanish: "desarrollo de aplicaciones",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Ein Framework ist eine Art Softwareplattform, welche im Rahmen der Anwendungsentwicklung genutzt wird. Damit werden die Architektur sowie die Struktur der künftigen Anwendung festgelegt. Der sogenannte Ordnungsrahmen bzw. das Gerüst eines Frameworks enthält erforderliche Vorlagen, Standardmodule, Bibliotheken und APIs, die dem Anwendungsentwickler zur Verfügung gestellt werden. Allgemein vereinfachen und beschleunigen Frameworks die Entwicklung und Integration verschiedener Komponenten und Module in das fertige Softwareprodukt. Es gibt sehr unterschiedliche Frameworks, die für die Softwareentwicklung von Web-, Desktop-, Mobilanwendungen sowie für Front-End- und Back-End-Anwendungen konzipiert sind.",
+      importantWords: [
+        {
+          german: "Softwareplattform",
+          spanish: "plataforma de software",
+        },
+        {
+          german: "Anwendungsentwicklung",
+          spanish: "desarrollo de aplicaciones",
+        },
+        {
+          german: "Architektur",
+          spanish: "arquitectura",
+        },
+        {
+          german: "Struktur",
+          spanish: "estructura",
+        },
+        {
+          german: "Ordnungsrahmen",
+          spanish: "marco de trabajo",
+        },
+        {
+          german: "Gerüst",
+          spanish: "esqueleto",
+        },
+        {
+          german: "Vorlagen",
+          spanish: "plantillas",
+        },
+        {
+          german: "Standardmodule",
+          spanish: "módulos estándar",
+        },
+        {
+          german: "Bibliotheken",
+          spanish: "bibliotecas",
+        },
+        {
+          german: "APIs",
+          spanish: "APIs",
+        },
+        {
+          german: "vereinfachen",
+          spanish: "simplifican",
+        },
+        {
+          german: "beschleunigen",
+          spanish: "aceleran",
+        },
+        {
+          german: "Entwicklung",
+          spanish: "desarrollo",
+        },
+        {
+          german: "Integration",
+          spanish: "integración",
+        },
+        {
+          german: "Komponenten",
+          spanish: "componentes",
+        },
+        {
+          german: "Module",
+          spanish: "módulos",
+        },
+        {
+          german: "Softwareprodukt",
+          spanish: "producto de software",
+        },
+        {
+          german: "Web",
+          spanish: "web",
+        },
+        {
+          german: "Desktop",
+          spanish: "de escritorio",
+        },
+        {
+          german: "Mobilanwendungen",
+          spanish: "aplicaciones móviles",
+        },
+        {
+          german: "Front-End",
+          spanish: "front-end",
+        },
+        {
+          german: "Back-End",
+          spanish: "back-end",
+        },
+      ],
+    },
+  },
+  {
+    number: "152",
+    withImage: false,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Erläutere den Unterschied zwischen einem Compiler und einem Interpreter.",
+      difficulty: 1,
+      importantWords: [
+        {
+          german: "Unterschied",
+          spanish: "diferencia",
+        },
+        {
+          german: "Compiler",
+          spanish: "compilador",
+        },
+        {
+          german: "Interpreter",
+          spanish: "intérprete",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Jeder Programmcode, den ein Anwendungsentwickler schreibt, muss für den PC bzw. für die Maschine „lesbar“ bzw. interpretierbar sein. Je nach Programmierung wird das mithilfe eines Compilers oder mit einem Interpreter umgesetzt.\n\nCompiler:\nEin Compiler wandelt den Quellcode des Programms in lesbare Maschinensprache um und übersetzt dabei alles in Maschinencode. Der Quellcode muss vollständig übersetzt werden, bevor die Anwendung ausgeführt werden kann.\n\nInterpreter:\nEin Interpreter verarbeitet den Quellcode eines Programms während der Laufzeit. Der Interpreter geht dabei Zeile für Zeile vor, die Anweisungen werden nacheinander eingelesen, analysiert und sofort zur Laufzeit ausgeführt.",
+      importantWords: [
+        {
+          german: "Programmcode",
+          spanish: "código de programa",
+        },
+        {
+          german: "Anwendungsentwickler",
+          spanish: "desarrollador de aplicaciones",
+        },
+        {
+          german: "lesbar",
+          spanish: "legible",
+        },
+        {
+          german: "Maschinensprache",
+          spanish: "lenguaje de máquina",
+        },
+        {
+          german: "Quellcode",
+          spanish: "código fuente",
+        },
+        {
+          german: "übersetzt",
+          spanish: "traduce",
+        },
+        {
+          german: "ausgeführt",
+          spanish: "ejecutada",
+        },
+        {
+          german: "Laufzeit",
+          spanish: "tiempo de ejecución",
+        },
+        {
+          german: "Zeile für Zeile",
+          spanish: "línea por línea",
+        },
+        {
+          german: "eingelesen",
+          spanish: "leídas",
+        },
+        {
+          german: "analysiert",
+          spanish: "analizadas",
+        },
+      ],
+    },
+  },
+  {
+    number: "153",
+    withImage: false,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Was versteht man in der Objektorientierten Programmierung (OOP) unter einer Vererbung?",
+      difficulty: 2,
+      importantWords: [
+        {
+          german: "Objektorientierten Programmierung (OOP)",
+          spanish: "Programación Orientada a Objetos (OOP)",
+        },
+        {
+          german: "Vererbung",
+          spanish: "herencia",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Eine Vererbung beschreibt die Vorgehensweise in der OOP, eine neue Klasse als Erweiterung einer bereits existierenden Klasse zu erzeugen. Die existierende Klasse wird auch Basisklasse oder Super-, Ober- oder Elternklasse genannt. Die neu erzeugte bzw. abgeleitete Klasse hingegen wird als Sub-, Unter- oder Kindklasse bezeichnet. Dieser Vorgang der Vererbung wird auch als Ableitung oder Spezialisierung benannt.",
+      importantWords: [
+        {
+          german: "Vererbung",
+          spanish: "herencia",
+        },
+        {
+          german: "Vorgehensweise",
+          spanish: "procedimiento",
+        },
+        {
+          german: "Klasse",
+          spanish: "clase",
+        },
+        {
+          german: "Erweiterung",
+          spanish: "extensión",
+        },
+        {
+          german: "existierenden Klasse",
+          spanish: "clase existente",
+        },
+        {
+          german: "Basisklasse",
+          spanish: "clase base",
+        },
+        {
+          german: "Super-, Ober- oder Elternklasse",
+          spanish: "superclase, clase superior o clase padre",
+        },
+        {
+          german: "abgeleitete Klasse",
+          spanish: "clase derivada",
+        },
+        {
+          german: "Sub-, Unter- oder Kindklasse",
+          spanish: "subclase, clase inferior o clase hija",
+        },
+        {
+          german: "Vorgang",
+          spanish: "proceso",
+        },
+        {
+          german: "Ableitung",
+          spanish: "derivación",
+        },
+        {
+          german: "Spezialisierung",
+          spanish: "especialización",
+        },
+      ],
+    },
+  },
+  {
+    number: "154",
+    withImage: true,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Was versteht man im Klassendiagramm unter einer Komposition?",
+      difficulty: 1,
+      importantWords: [
+        {
+          german: "Klassendiagramm",
+          spanish: "diagrama de clases",
+        },
+        {
+          german: "Komposition",
+          spanish: "composición",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "In der Modellierungssprache Unified Modeling Language (UML) nennt sich ein Modellelement Assoziation, welches zur Verstärkung der sogenannten Assoziationsenden eine **Komposition** oder eine Aggregation zur Verfügung stellt. Die Komposition bildet den assoziativen Fall ab, bei dem die Teile nicht ohne das Ganze existieren können. Das bedeutet, dass die Teile vom Ganzen existenziell abhängig sind. Die Komposition wird grafisch als eine ausgefüllte Raute dargestellt. (siehe Karte 154)",
+      importantWords: [
+        {
+          german: "Modellierungssprache",
+          spanish: "lenguaje de modelado",
+        },
+        {
+          german: "Unified Modeling Language (UML)",
+          spanish: "Lenguaje Unificado de Modelado (UML)",
+        },
+        {
+          german: "Assoziation",
+          spanish: "asociación",
+        },
+        {
+          german: "Komposition",
+          spanish: "composición",
+        },
+        {
+          german: "Aggregation",
+          spanish: "agregación",
+        },
+        {
+          german: "Teile",
+          spanish: "partes",
+        },
+        {
+          german: "Ganze",
+          spanish: "todo",
+        },
+        {
+          german: "abhängig",
+          spanish: "dependiente",
+        },
+        {
+          german: "ausgefüllte Raute",
+          spanish: "rombo relleno",
+        },
+      ],
+    },
+  },
+  {
+    number: "155",
+    withImage: true,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Was ist im Klassendiagramm eine Aggregation?",
+      difficulty: 1,
+      importantWords: [
+        {
+          german: "Klassendiagramm",
+          spanish: "diagrama de clases",
+        },
+        {
+          german: "Aggregation",
+          spanish: "agregación",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "In der Modellierungssprache Unified Modeling Language (UML) nennt sich ein Modellelement Assoziation, welches zur Verstärkung der sogenannten Assoziationsenden eine Komposition oder eine Aggregation zur Verfügung stellt. Bei einer Aggregation ist ein Objekt ein Teil eines Ganzen und kann auch ohne das Ganze existieren. Die Aggregation wird grafisch als eine nicht ausgefüllte Raute dargestellt. (siehe Karte 155)",
+      importantWords: [
+        {
+          german: "Modellierungssprache",
+          spanish: "lenguaje de modelado",
+        },
+        {
+          german: "Unified Modeling Language (UML)",
+          spanish: "Lenguaje Unificado de Modelado (UML)",
+        },
+        {
+          german: "Assoziation",
+          spanish: "asociación",
+        },
+        {
+          german: "Komposition",
+          spanish: "composición",
+        },
+        {
+          german: "Aggregation",
+          spanish: "agregación",
+        },
+        {
+          german: "Objekt",
+          spanish: "objeto",
+        },
+        {
+          german: "Teil eines Ganzen",
+          spanish: "parte de un todo",
+        },
+        {
+          german: "existieren",
+          spanish: "existir",
+        },
+        {
+          german: "nicht ausgefüllte Raute",
+          spanish: "rombo no relleno",
+        },
+      ],
+    },
+  },
+  {
+    number: "156",
+    withImage: true,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Ergänze die fehlenden Datentypen in diesem Klassendiagramm.",
+      difficulty: 1,
+      importantWords: [
+        {
+          german: "Ergänze",
+          spanish: "Completa",
+        },
+        {
+          german: "fehlenden Datentypen",
+          spanish: "tipos de datos faltantes",
+        },
+        {
+          german: "Klassendiagramm",
+          spanish: "diagrama de clases",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Die Lösung ist auf der Karte **156** mit dem Klassendiagramm abgebildet. (Lösungsmöglichkeit)",
+      importantWords: [
+        {
+          german: "Lösungsmöglichkeit",
+          spanish: "posible solución",
+        },
+        {
+          german: "Klassendiagramm",
+          spanish: "diagrama de clases",
+        },
+      ],
+    },
+  },
+  {
+    number: "157",
+    withImage: false,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Erkläre den Unterschied zwischen einem Objekt und einer Klasse.",
+      difficulty: 1,
+      importantWords: [
+        {
+          german: "Unterschied",
+          spanish: "diferencia",
+        },
+        {
+          german: "Objekt",
+          spanish: "objeto",
+        },
+        {
+          german: "Klasse",
+          spanish: "clase",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Eine Klasse definiert mithilfe von Kategorien Objekte, die gleiche Attribute haben und gleiche Methoden benutzen. Durch Vererbung können neue Subklassen geschaffen werden, bei denen eine Erweiterung oder eine Einschränkung der ursprünglichen Klasse enthalten sein kann. Ein Objekt ist eine Instanz einer Klasse, die nach dem Bauplan der zugeordneten Klasse erschaffen wurde. Ein Objekt verfügt damit über die Attribute und Methoden, die in der Klasse festgelegt worden sind.",
+      importantWords: [
+        {
+          german: "Klasse",
+          spanish: "clase",
+        },
+        {
+          german: "Objekte",
+          spanish: "objetos",
+        },
+        {
+          german: "Attribute",
+          spanish: "atributos",
+        },
+        {
+          german: "Methoden",
+          spanish: "métodos",
+        },
+        {
+          german: "Vererbung",
+          spanish: "herencia",
+        },
+        {
+          german: "Subklassen",
+          spanish: "subclases",
+        },
+        {
+          german: "Erweiterung",
+          spanish: "extensión",
+        },
+        {
+          german: "Einschränkung",
+          spanish: "restricción",
+        },
+        {
+          german: "Instanz",
+          spanish: "instancia",
+        },
+        {
+          german: "Bauplan",
+          spanish: "plano",
+        },
+      ],
+    },
+  },
+  {
+    number: "158",
+    withImage: false,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Was versteht man in der Anwendungsentwicklung unter einem Mockup?",
+      difficulty: 1,
+      importantWords: [
+        {
+          german: "Anwendungsentwicklung",
+          spanish: "desarrollo de aplicaciones",
+        },
+        {
+          german: "Mockup",
+          spanish: "maqueta",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Ein Mockup stellt in der Programmierung einer Webseite, einer Anwenderoberfläche oder einer mobilen App einen grafischen Entwurf dar. Mockups dienen dazu, Ideen und Konzepte bezüglich des Designs, beispielsweise im Verlauf eines Webprojekts, zu visualisieren und zu evaluieren. Mockups müssen nicht perfekt sein, müssen jedoch Farbkonzept, Schriften und Anordnungen von Bedienelementen klar erkennen lassen.",
+      importantWords: [
+        {
+          german: "Programmierung",
+          spanish: "programación",
+        },
+        {
+          german: "Webseite",
+          spanish: "página web",
+        },
+        {
+          german: "Anwenderoberfläche",
+          spanish: "interfaz de usuario",
+        },
+        {
+          german: "mobile App",
+          spanish: "aplicación móvil",
+        },
+        {
+          german: "grafischen Entwurf",
+          spanish: "diseño gráfico",
+        },
+        {
+          german: "Ideen",
+          spanish: "ideas",
+        },
+        {
+          german: "Konzepte",
+          spanish: "conceptos",
+        },
+        {
+          german: "Designs",
+          spanish: "diseño",
+        },
+        {
+          german: "visualisieren",
+          spanish: "visualizar",
+        },
+        {
+          german: "evaluieren",
+          spanish: "evaluar",
+        },
+        {
+          german: "Farbkonzept",
+          spanish: "concepto de color",
+        },
+        {
+          german: "Schriften",
+          spanish: "fuentes",
+        },
+        {
+          german: "Anordnungen",
+          spanish: "disposiciones",
+        },
+        {
+          german: "Bedienelementen",
+          spanish: "elementos de control",
+        },
+      ],
+    },
+  },
+  {
+    number: "159",
+    withImage: true,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Bitte ergänze die Kontrollstruktur, wenn die Summe zum Start gleich Null ist. Die Summe wird nach jedem erneuten Durchlauf um den Wert i erhöht und am Ende als Summe ausgegeben.",
+      difficulty: 1,
+      importantWords: [
+        {
+          german: "ergänze",
+          spanish: "completa",
+        },
+        {
+          german: "Kontrollstruktur",
+          spanish: "estructura de control",
+        },
+        {
+          german: "Summe",
+          spanish: "suma",
+        },
+        {
+          german: "Start",
+          spanish: "inicio",
+        },
+        {
+          german: "Durchlauf",
+          spanish: "iteración",
+        },
+        {
+          german: "erhöht",
+          spanish: "aumenta",
+        },
+        {
+          german: "ausgegeben",
+          spanish: "emitida",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Die Lösung ist auf der Karte **159** mit der Kontrollstruktur abgebildet. (Lösungsmöglichkeit)",
+      importantWords: [
+        {
+          german: "Lösungsmöglichkeit",
+          spanish: "posible solución",
+        },
+      ],
+    },
+  },
+  {
+    number: "160",
+    withImage: true,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Um welche Art von Kontrollstruktur handelt es sich hier?",
+      difficulty: 1,
+      importantWords: [
+        {
+          german: "Kontrollstruktur",
+          spanish: "estructura de control",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Es handelt sich hier um einen Pseudocode, welcher zur Veranschaulichung eines Algorithmus dient. Pseudocode kann sowohl mit natürlicher Beschreibung als auch mit Elementen einer höheren Programmiersprache einen Programmablauf beschreiben. Die Pseudocode-Beschreibung ist nicht verbindlich standardisiert und dient nur als Zwischenschritt bevor Programmcode in „echter“ Programmiersprache geschrieben wird. (siehe Karte 160)",
+      importantWords: [
+        {
+          german: "Pseudocode",
+          spanish: "pseudocódigo",
+        },
+        {
+          german: "Veranschaulichung",
+          spanish: "visualización",
+        },
+        {
+          german: "Algorithmus",
+          spanish: "algoritmo",
+        },
+        {
+          german: "natürlicher Beschreibung",
+          spanish: "descripción natural",
+        },
+        {
+          german: "höheren Programmiersprache",
+          spanish: "lenguaje de programación de alto nivel",
+        },
+        {
+          german: "Programmablauf",
+          spanish: "flujo del programa",
+        },
+        {
+          german: "standardisiert",
+          spanish: "estandarizado",
+        },
+        {
+          german: "Zwischenschritt",
+          spanish: "paso intermedio",
+        },
+        {
+          german: "Programmiersprache",
+          spanish: "lenguaje de programación",
+        },
+      ],
+    },
+  },
+  {
+    number: "161",
+    withImage: true,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Benenne die aufgeführten 3 Kontrollstrukturen.",
+      difficulty: 2,
+      importantWords: [
+        {
+          german: "Benenne",
+          spanish: "Nombra",
+        },
+        {
+          german: "aufgeführten",
+          spanish: "enumeradas",
+        },
+        {
+          german: "Kontrollstrukturen",
+          spanish: "estructuras de control",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Von links nach rechts ist hier der **Programmablaufplan (PAP)**, das **Use-Case-Diagramm (Anwendungsfall Diagramm)** sowie das **Struktogramm (Nassi-Shneiderman-Diagramm)** zu erkennen. (siehe Karte 161)",
+      importantWords: [
+        {
+          german: "Programmablaufplan (PAP)",
+          spanish: "diagrama de flujo de programa (PAP)",
+        },
+        {
+          german: "Use-Case-Diagramm",
+          spanish: "diagrama de caso de uso",
+        },
+        {
+          german: "Anwendungsfall Diagramm",
+          spanish: "diagrama de caso de uso",
+        },
+        {
+          german: "Struktogramm",
+          spanish: "estructograma",
+        },
+        {
+          german: "Nassi-Shneiderman-Diagramm",
+          spanish: "diagrama de Nassi-Shneiderman",
+        },
+      ],
+    },
+  },
+  {
+    number: "162",
+    withImage: false,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Welche allgemeinen Anforderungen werden an ein Datenbanksystem gestellt?",
+      difficulty: 2,
+      importantWords: [
+        {
+          german: "allgemeinen Anforderungen",
+          spanish: "requisitos generales",
+        },
+        {
+          german: "Datenbanksystem",
+          spanish: "sistema de base de datos",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Folgende allgemeine Anforderungen an ein Datenbanksystem sind:\n\n* Datenunabhängigkeit\n* Effizienter Speicherzugriff\n* Paralleler Datenzugriff\n* Datenkonsistenz\n* Gemeinsame Datenbasis\n* Datenintegrität\n* Datensicherheit\n* Wiederherstellungsverfahren\n* Abfragesprache\n* Keine/kontrollierte Redundanz",
+      importantWords: [
+        {
+          german: "Datenunabhängigkeit",
+          spanish: "independencia de datos",
+        },
+        {
+          german: "Effizienter Speicherzugriff",
+          spanish: "acceso eficiente al almacenamiento",
+        },
+        {
+          german: "Paralleler Datenzugriff",
+          spanish: "acceso paralelo a los datos",
+        },
+        {
+          german: "Datenkonsistenz",
+          spanish: "consistencia de datos",
+        },
+        {
+          german: "Gemeinsame Datenbasis",
+          spanish: "base de datos compartida",
+        },
+        {
+          german: "Datenintegrität",
+          spanish: "integridad de datos",
+        },
+        {
+          german: "Datensicherheit",
+          spanish: "seguridad de los datos",
+        },
+        {
+          german: "Wiederherstellungsverfahren",
+          spanish: "procedimiento de recuperación",
+        },
+        {
+          german: "Abfragesprache",
+          spanish: "lenguaje de consulta",
+        },
+        {
+          german: "Redundanz",
+          spanish: "redundancia",
+        },
+      ],
+    },
+  },
+  {
+    number: "163",
+    withImage: false,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Welche 5 Arten von SQL-Kommandos werden unterschieden?",
+      difficulty: 3,
+      importantWords: [
+        {
+          german: "Arten",
+          spanish: "tipos",
+        },
+        {
+          german: "SQL-Kommandos",
+          spanish: "comandos SQL",
+        },
+        {
+          german: "unterschieden",
+          spanish: "diferencian",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Man unterscheidet zwischen fünf Arten von SQL-Kommandos:\n\n* DML-Kommandos (Data Manipulation Language)\n* DDL-Kommandos (Data Definition Language)\n* DCL-Kommandos (Data Control Language)\n* DQL-Kommandos (Data Query Language)\n* TCL-Kommandos (Transaction Control Language)",
+      importantWords: [
+        {
+          german: "DML-Kommandos (Data Manipulation Language)",
+          spanish: "comandos DML (lenguaje de manipulación de datos)",
+        },
+        {
+          german: "DDL-Kommandos (Data Definition Language)",
+          spanish: "comandos DDL (lenguaje de definición de datos)",
+        },
+        {
+          german: "DCL-Kommandos (Data Control Language)",
+          spanish: "comandos DCL (lenguaje de control de datos)",
+        },
+        {
+          german: "DQL-Kommandos (Data Query Language)",
+          spanish: "comandos DQL (lenguaje de consulta de datos)",
+        },
+        {
+          german: "TCL-Kommandos (Transaction Control Language)",
+          spanish: "comandos TCL (lenguaje de control de transacciones)",
+        },
+      ],
+    },
+  },
+  {
+    number: "164",
+    withImage: true,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: 'Wie sieht das SQL-Kommando aus, um eine Tabelle „Verkauf" mit folgenden Feldern neu zu erzeugen?\n\n- Bestell_ID, als Primärschlüssel, fortlaufend automatisch zugewiesen\n- Produktname, als Textfeld mit maximal 100 Zeichen\n- Anzahl, als Dezimalzahl\n- Preis, als Dezimalzahl, mit 4 Stellen und 2 Nachkommastellen',
+      difficulty: 1,
+      importantWords: [
+        {
+          german: "SQL-Kommando",
+          spanish: "comando SQL",
+        },
+        {
+          german: "Tabelle",
+          spanish: "tabla",
+        },
+        {
+          german: "neu zu erzeugen",
+          spanish: "crear de nuevo",
+        },
+        {
+          german: "Primärschlüssel",
+          spanish: "clave primaria",
+        },
+        {
+          german: "fortlaufend automatisch zugewiesen",
+          spanish: "asignado automáticamente de forma consecutiva",
+        },
+        {
+          german: "Textfeld",
+          spanish: "campo de texto",
+        },
+        {
+          german: "Dezimalzahl",
+          spanish: "número decimal",
+        },
+        {
+          german: "Nachkommastellen",
+          spanish: "decimales",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Die Syntax für das SQL-Kommando unterscheidet sich je nach Datenbanksystem. Die Lösung ist auch auf der Karte **164** zu sehen.\n\n**MS-SQL**\n```sql\nCREATE TABLE Verkauf (\n  Bestell_ID INT NOT NULL IDENTITY (1,1),\n  Produktname VARCHAR(100) NOT NULL,\n  Anzahl INT NOT NULL,\n  Preis DECIMAL (4, 2),\n  PRIMARY KEY (Bestell_ID)\n);\n```\n**MySQL**\n```sql\nCREATE TABLE Verkauf (\n  Bestell_ID INT NOT NULL AUTO_INCREMENT PRIMARY KEY,\n  Produktname VARCHAR(100) NOT NULL,\n  Anzahl INT NOT NULL,\n  Preis DECIMAL(4, 2)\n);\n```",
+      importantWords: [
+        {
+          german: "CREATE TABLE",
+          spanish: "CREATE TABLE",
+        },
+        {
+          german: "PRIMARY KEY",
+          spanish: "PRIMARY KEY",
+        },
+        {
+          german: "INT",
+          spanish: "INT",
+        },
+        {
+          german: "IDENTITY",
+          spanish: "IDENTITY",
+        },
+        {
+          german: "VARCHAR",
+          spanish: "VARCHAR",
+        },
+        {
+          german: "DECIMAL",
+          spanish: "DECIMAL",
+        },
+        {
+          german: "NOT NULL",
+          spanish: "NOT NULL",
+        },
+        {
+          german: "AUTO_INCREMENT",
+          spanish: "AUTO_INCREMENT",
+        },
+      ],
+    },
+  },
+  {
+    number: "165",
+    withImage: true,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Wie muss die SQL Abfrage lauten, wenn alle Werte eines Datensatzes mit der Postleitzahl zwischen 1000 und 2999 der Tabelle Personen angezeigt werden sollen?",
+      difficulty: 2,
+      importantWords: [
+        {
+          german: "SQL Abfrage",
+          spanish: "consulta SQL",
+        },
+        {
+          german: "Werte",
+          spanish: "valores",
+        },
+        {
+          german: "Datensatzes",
+          spanish: "registro",
+        },
+        {
+          german: "Postleitzahl",
+          spanish: "código postal",
+        },
+        {
+          german: "Tabelle",
+          spanish: "tabla",
+        },
+        {
+          german: "angezeigt",
+          spanish: "mostrados",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Die SQL-Abfrage lautet:\n\n```sql\nSELECT * FROM Personen WHERE PLZ BETWEEN 1000 AND 2999;\n```\n(siehe Karte 165)",
+      importantWords: [
+        {
+          german: "SELECT",
+          spanish: "SELECT",
+        },
+        {
+          german: "FROM",
+          spanish: "FROM",
+        },
+        {
+          german: "WHERE",
+          spanish: "WHERE",
+        },
+        {
+          german: "BETWEEN",
+          spanish: "BETWEEN",
+        },
+      ],
+    },
+  },
+  {
+    number: "166",
+    withImage: true,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Die Normalisierung eines Datenbankschemas ist wichtiger Bestandteil des Datenbank Designs. Nenne die ersten drei Normalformen und deren Zweck.",
+      difficulty: 2,
+      importantWords: [
+        {
+          german: "Normalisierung",
+          spanish: "normalización",
+        },
+        {
+          german: "Datenbankschemas",
+          spanish: "esquema de base de datos",
+        },
+        {
+          german: "Datenbank Designs",
+          spanish: "diseño de base de datos",
+        },
+        {
+          german: "Normalformen",
+          spanish: "formas normales",
+        },
+        {
+          german: "Zweck",
+          spanish: "propósito",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Allgemein dient die Normalisierung der Verhinderung von Datenredundanzen. Folgende 3 Normalformen gibt es:\n\n* **Die Erste Normalform (1NF)** ist dann erfüllt, wenn alle Informationen in einer Tabelle atomar vorliegen.\n\n* **Die Zweite Normalform (2NF)** liegt dann vor, wenn die Tabelle in der ersten Normalform vorliegt und jedes Nichtschlüsselattribut von jedem Schlüsselkandidaten voll funktional abhängig ist.\n\n* **Die Dritte Normalform (3NF)** gilt als erfüllt, wenn er sich bereits in der zweiten Normalform (2NF) befindet und kein Nichtschlüsselattribut transitiv von einem Kandidatenschlüssel abhängt.",
+      importantWords: [
+        {
+          german: "Normalisierung",
+          spanish: "normalización",
+        },
+        {
+          german: "Datenredundanzen",
+          spanish: "redundancias de datos",
+        },
+        {
+          german: "Erste Normalform (1NF)",
+          spanish: "primera forma normal (1NF)",
+        },
+        {
+          german: "atomar",
+          spanish: "atómico",
+        },
+        {
+          german: "Zweite Normalform (2NF)",
+          spanish: "segunda forma normal (2NF)",
+        },
+        {
+          german: "Nichtschlüsselattribut",
+          spanish: "atributo no clave",
+        },
+        {
+          german: "Schlüsselkandidaten",
+          spanish: "candidato a clave",
+        },
+        {
+          german: "voll funktional abhängig",
+          spanish: "totalmente dependiente funcionalmente",
+        },
+        {
+          german: "Dritte Normalform (3NF)",
+          spanish: "tercera forma normal (3NF)",
+        },
+        {
+          german: "transitiv",
+          spanish: "transitivamente",
+        },
+        {
+          german: "Kandidatenschlüssel",
+          spanish: "clave candidata",
+        },
+      ],
+    },
+  },
+  {
+    number: "167",
+    withImage: true,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Die folgende Datenbanktabelle soll alle Mitarbeiter der Technik-Abteilung nach den Orten Hamburg oder München mithilfe eines SQL-Kommandos ausgeben. Wie lautet das vollständige SQL Kommando?",
+      difficulty: 2,
+      importantWords: [
+        {
+          german: "Datenbanktabelle",
+          spanish: "tabla de base de datos",
+        },
+        {
+          german: "Mitarbeiter",
+          spanish: "empleados",
+        },
+        {
+          german: "Technik-Abteilung",
+          spanish: "departamento de tecnología",
+        },
+        {
+          german: "Orten",
+          spanish: "localidades",
+        },
+        {
+          german: "SQL-Kommandos",
+          spanish: "comandos SQL",
+        },
+        {
+          german: "ausgeben",
+          spanish: "mostrar",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Das vollständige SQL-Kommando lautet:\n\n```sql\nSELECT * FROM Personen WHERE Abteilung = 'Technik' AND (Ort = 'Hamburg' OR Ort = 'München');\n```\n\n(siehe Karte 167)",
+      importantWords: [
+        {
+          german: "SELECT",
+          spanish: "SELECT",
+        },
+        {
+          german: "FROM",
+          spanish: "FROM",
+        },
+        {
+          german: "WHERE",
+          spanish: "WHERE",
+        },
+        {
+          german: "AND",
+          spanish: "AND",
+        },
+        {
+          german: "OR",
+          spanish: "OR",
+        },
+      ],
+    },
+  },
+  {
+    number: "168",
+    withImage: false,
+    section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
+    question: {
+      title: "Frage",
+      text: "Es gibt 5 Typen von SQL Kommandos: DDL, DML, DCL, TCL und DQL. Nenne bitte jeweils mindestens einen ausführbaren SQL-Befehl.",
+      difficulty: 3,
+      importantWords: [
+        {
+          german: "Typen von SQL Kommandos",
+          spanish: "tipos de comandos SQL",
+        },
+        {
+          german: "ausführbaren SQL-Befehl",
+          spanish: "comando SQL ejecutable",
+        },
+      ],
+    },
+    answer: {
+      title: "Antwort",
+      text: "Die SQL-Kommandos lassen sich wie folgt einteilen:\n\n* **Data Definition Language (DDL):** CREATE, ALTER, DROP, TRUNCATE\n* **Data Manipulation Language (DML):** INSERT, UPDATE, DELETE\n* **Data Control Language (DCL):** GRANT, REVOKE\n* **Transaction Control Language (TCL):** COMMIT, ROLLBACK, SAVEPOINT\n* **Data Query Language (DQL):** SELECT",
+      importantWords: [
+        {
+          german: "Data Definition Language (DDL)",
+          spanish: "Lenguaje de Definición de Datos (DDL)",
+        },
+        {
+          german: "CREATE",
+          spanish: "CREATE",
+        },
+        {
+          german: "ALTER",
+          spanish: "ALTER",
+        },
+        {
+          german: "DROP",
+          spanish: "DROP",
+        },
+        {
+          german: "TRUNCATE",
+          spanish: "TRUNCATE",
+        },
+        {
+          german: "Data Manipulation Language (DML)",
+          spanish: "Lenguaje de Manipulación de Datos (DML)",
+        },
+        {
+          german: "INSERT",
+          spanish: "INSERT",
+        },
+        {
+          german: "UPDATE",
+          spanish: "UPDATE",
+        },
+        {
+          german: "DELETE",
+          spanish: "DELETE",
+        },
+        {
+          german: "Data Control Language (DCL)",
+          spanish: "Lenguaje de Control de Datos (DCL)",
+        },
+        {
+          german: "GRANT",
+          spanish: "GRANT",
+        },
+        {
+          german: "REVOKE",
+          spanish: "REVOKE",
+        },
+        {
+          german: "Transaction Control Language (TCL)",
+          spanish: "Lenguaje de Control de Transacciones (TCL)",
+        },
+        {
+          german: "COMMIT",
+          spanish: "COMMIT",
+        },
+        {
+          german: "ROLLBACK",
+          spanish: "ROLLBACK",
+        },
+        {
+          german: "SAVEPOINT",
+          spanish: "SAVEPOINT",
+        },
+        {
+          german: "Data Query Language (DQL)",
+          spanish: "Lenguaje de Consulta de Datos (DQL)",
+        },
+        {
+          german: "SELECT",
+          spanish: "SELECT",
+        },
+      ],
+    },
+  },
 ];
