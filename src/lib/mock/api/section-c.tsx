@@ -691,6 +691,7 @@ export const sectionC: Card[] = [
   },
   {
     number: "66",
+    withImage:true,
     section: "Beurteilen marktgängiger IT-Systeme und Lösungen",
     question: {
       title: "Frage",
@@ -1107,6 +1108,7 @@ export const sectionC: Card[] = [
   },
   {
     number: "78",
+    withImage:true,
     section: "Beurteilen marktgängiger IT-Systeme und Lösungen",
     question: {
       title: "Frage",
@@ -1816,6 +1818,7 @@ export const sectionC: Card[] = [
   },
   {
     number: "102",
+    withImage:true,
     section: "Beurteilen marktgängiger IT-Systeme und Lösungen",
     question: {
       title: "Frage",
@@ -1840,6 +1843,7 @@ export const sectionC: Card[] = [
   },
   {
     number: "103",
+    withImage:true,
     section: "Beurteilen marktgängiger IT-Systeme und Lösungen",
     question: {
       title: "Frage",
