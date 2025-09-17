@@ -95,6 +95,7 @@ export const sectionE: Card[] = [
   },
   {
     number: "173",
+    withImage:true,
     section: "Qualitätssichernde Maßnahmen",
     question: {
       title: "Frage",
