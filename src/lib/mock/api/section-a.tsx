@@ -1,6 +1,8 @@
 import { Card } from "@/lib/interfaces/cards";
 
-export const sectionA:Card[]=[{
+export const sectionA: Card[] = [
+  {
+    withImage: true,
     number: "1",
     section: "Planen, Vorbereiten und Durchführen von Arbeitsaufgaben",
     question: {
@@ -19,7 +21,10 @@ export const sectionA:Card[]=[{
       importantWords: [
         { german: "Netzplan", spanish: "Diagrama de red" },
         { german: "Gantt-Diagramm", spanish: "Diagrama de Gantt" },
-        { german: "Projektstrukturplan", spanish: "Plan de estructura del proyecto (PSP)" },
+        {
+          german: "Projektstrukturplan",
+          spanish: "Plan de estructura del proyecto (PSP)",
+        },
       ],
     },
   },
@@ -30,15 +35,16 @@ export const sectionA:Card[]=[{
       title: "Frage",
       text: "Was ist ein Netzplan?",
       difficulty: 2,
-      importantWords: [
-        { german: "Netzplan", spanish: "Diagrama de red" },
-      ],
+      importantWords: [{ german: "Netzplan", spanish: "Diagrama de red" }],
     },
     answer: {
       title: "Antwort",
       text: "Der Netzplan findet Anwendung bei der Terminplanung von Projekten und stellt im Projektmanagement die Dauer von Aktivitäten im Projekt dar. Sowohl ihre zeitliche Anordnung als auch logische Abhängigkeiten zwischen den Aktivitäten werden grafisch dargestellt. Kritische Pfade und Pufferzeiten der einzelnen Aktivitäten sowie Gesamtpufferzeiten sind erkennbar.",
       importantWords: [
-        { german: "Terminplanung", spanish: "Planificación de plazos/cronograma" },
+        {
+          german: "Terminplanung",
+          spanish: "Planificación de plazos/cronograma",
+        },
         { german: "Dauer", spanish: "Duración" },
         { german: "zeitliche Anordnung", spanish: "Ordenación temporal" },
         { german: "Abhängigkeiten", spanish: "Dependencias" },
@@ -79,7 +85,10 @@ export const sectionA:Card[]=[{
       difficulty: 3,
       importantWords: [
         { german: "Top-Down-Ansatz", spanish: "Enfoque de arriba hacia abajo" },
-        { german: "Projektstrukturplan", spanish: "Plan de estructura del proyecto (PSP)" },
+        {
+          german: "Projektstrukturplan",
+          spanish: "Plan de estructura del proyecto (PSP)",
+        },
       ],
     },
     answer: {
@@ -101,8 +110,14 @@ export const sectionA:Card[]=[{
       text: "Was versteht man unter dem Begriff Bottom-Up-Ansatz beim Projektstrukturplan?",
       difficulty: 3,
       importantWords: [
-        { german: "Bottom-Up-Ansatz", spanish: "Enfoque de abajo hacia arriba" },
-        { german: "Projektstrukturplan", spanish: "Plan de estructura del proyecto (PSP)" },
+        {
+          german: "Bottom-Up-Ansatz",
+          spanish: "Enfoque de abajo hacia arriba",
+        },
+        {
+          german: "Projektstrukturplan",
+          spanish: "Plan de estructura del proyecto (PSP)",
+        },
       ],
     },
     answer: {
@@ -161,12 +176,16 @@ export const sectionA:Card[]=[{
         { german: "Anfang", spanish: "Inicio" },
         { german: "Ende", spanish: "Fin" },
         { german: "Pufferzeiten", spanish: "Tiempos de holgura/buffer" },
-        { german: "Gesamtprojektdauer", spanish: "Duración total del proyecto" },
+        {
+          german: "Gesamtprojektdauer",
+          spanish: "Duración total del proyecto",
+        },
       ],
     },
   },
   {
     number: "8",
+    withImage: true,
     section: "Planen, Vorbereiten und Durchführen von Arbeitsaufgaben",
     question: {
       title: "Frage",
@@ -184,10 +203,22 @@ export const sectionA:Card[]=[{
       title: "Antwort",
       text: "Se muestra un recuadro de un nodo de diagrama de red con las siguientes abreviaturas: FZ (frühester Anfangszeitpunkt - tiempo de inicio más temprano), FEZ (frühester Endzeitpunkt - tiempo de finalización más temprano), SAZ (spätester Anfangszeitpunkt - tiempo de inicio más tardío), SEZ (spätester Endzeitpunkt - tiempo de finalización más tardío), GP (Gesamtpuffer - holgura total), FP (freier Puffer - holgura libre). (ver imagen de la carta)",
       importantWords: [
-        { german: "frühester Anfangszeitpunkt", spanish: "Tiempo de inicio más temprano" },
-        { german: "frühester Endzeitpunkt", spanish: "Tiempo de finalización más temprano" },
-        { german: "spätester Anfangszeitpunkt", spanish: "Tiempo de inicio más tardío" },
-        { german: "spätester Endzeitpunkt", spanish: "Tiempo de finalización más tardío" },
+        {
+          german: "frühester Anfangszeitpunkt",
+          spanish: "Tiempo de inicio más temprano",
+        },
+        {
+          german: "frühester Endzeitpunkt",
+          spanish: "Tiempo de finalización más temprano",
+        },
+        {
+          german: "spätester Anfangszeitpunkt",
+          spanish: "Tiempo de inicio más tardío",
+        },
+        {
+          german: "spätester Endzeitpunkt",
+          spanish: "Tiempo de finalización más tardío",
+        },
         { german: "Gesamtpuffer", spanish: "Holgura total" },
         { german: "freier Puffer", spanish: "Holgura libre" },
       ],
@@ -201,7 +232,10 @@ export const sectionA:Card[]=[{
       text: "Was versteht man unter Forming, Storming, Norming und Performing im Teambildungsprozess?",
       difficulty: 3,
       importantWords: [
-        { german: "Teambildungsprozess", spanish: "Proceso de formación de equipos" },
+        {
+          german: "Teambildungsprozess",
+          spanish: "Proceso de formación de equipos",
+        },
         { german: "Forming", spanish: "Formación" },
         { german: "Storming", spanish: "Confrontación" },
         { german: "Norming", spanish: "Normalización" },
@@ -228,7 +262,10 @@ export const sectionA:Card[]=[{
       text: "Was bezeichnet man als Kick-Off-Meeting?",
       difficulty: 3,
       importantWords: [
-        { german: "Kick-Off-Meeting", spanish: "Reunión de inicio/lanzamiento" },
+        {
+          german: "Kick-Off-Meeting",
+          spanish: "Reunión de inicio/lanzamiento",
+        },
       ],
     },
     answer: {
@@ -258,10 +295,16 @@ export const sectionA:Card[]=[{
       text: "Die Meilenstein-Planung ist eine Form der Projektplanung und verfolgt bestimmte Ziele wie: eine grobe Terminplanung für das gesamte Projekt, essenzielle Ereignisse (Meilensteine) im Projekt transparent zu machen, Übersicht über Verzögerungen und deren mögliche Auswirkungen auf andere Termine sichtbar machen, Leistungsfortschrittsorientierung zur Bewertung des Projektverlaufs, Schaffen von Zwischenzielen zur Motivation der Mitarbeitenden. (ver imagen de la carta)",
       importantWords: [
         { german: "Ziele", spanish: "Objetivos" },
-        { german: "Terminplanung", spanish: "Planificación de plazos/cronograma" },
+        {
+          german: "Terminplanung",
+          spanish: "Planificación de plazos/cronograma",
+        },
         { german: "Meilensteine", spanish: "Hitos" },
         { german: "Verzögerungen", spanish: "Retrasos" },
-        { german: "Leistungsfortschrittsorientierung", spanish: "Orientación al progreso del rendimiento" },
+        {
+          german: "Leistungsfortschrittsorientierung",
+          spanish: "Orientación al progreso del rendimiento",
+        },
         { german: "Zwischenzielen", spanish: "Objetivos intermedios" },
       ],
     },
@@ -276,7 +319,10 @@ export const sectionA:Card[]=[{
       importantWords: [
         { german: "Vorgehensmodelle", spanish: "Modelos de procedimiento" },
         { german: "Projektmanagement", spanish: "Gestión de proyectos" },
-        { german: "Anwendungsentwicklung", spanish: "Desarrollo de aplicaciones" },
+        {
+          german: "Anwendungsentwicklung",
+          spanish: "Desarrollo de aplicaciones",
+        },
       ],
     },
     answer: {
@@ -286,12 +332,16 @@ export const sectionA:Card[]=[{
         { german: "Klassische Modelle", spanish: "Modelos clásicos" },
         { german: "Wasserfallmodell", spanish: "Modelo en cascada" },
         { german: "Agile Modelle", spanish: "Modelos ágiles" },
-        { german: "Inkrementelles Vorgehensmodell", spanish: "Modelo de procedimiento incremental" },
+        {
+          german: "Inkrementelles Vorgehensmodell",
+          spanish: "Modelo de procedimiento incremental",
+        },
       ],
     },
   },
   {
     number: "13",
+    withImage:true,
     section: "Planen, Vorbereiten und Durchführen von Arbeitsaufgaben",
     question: {
       title: "Frage",
@@ -348,11 +398,14 @@ export const sectionA:Card[]=[{
     },
     answer: {
       title: "Antwort",
-      text: "Ein Stakeholder gehört zu den internen und externen Anspruchsgruppen, die gewisse Ziele und Interessen vertreten. Der Begriff Stakeholder stammt aus dem Englischen und bedeutet so viel wie Teilhaber oder Anspruchsberechtigter. Im Englischen kann „Stake\" auch mit Einsatz, Anteil oder Anspruch, Erwartung übersetzt werden, „holder\" kann mit Eigentümer oder Besitzer übersetzt werden. Der Stakeholder ist jemand, dessen Erwartung bzw. Einsatz auf dem Spiel steht und der daher ein Interesse an der Zielerreichung hat. Der Begriff „Stakeholder\" wird nicht nur für Personen verwendet, die tatsächlich einen Einsatz geleistet haben, sondern für alle, die ein Interesse am Verlauf oder Ergebnis eines Prozesses, eines Projektes oder Investments haben. So können beispielsweise auch Kunden/Kundinnen oder Mitarbeitende die Funktion von Stakeholdern einnehmen.",
+      text: 'Ein Stakeholder gehört zu den internen und externen Anspruchsgruppen, die gewisse Ziele und Interessen vertreten. Der Begriff Stakeholder stammt aus dem Englischen und bedeutet so viel wie Teilhaber oder Anspruchsberechtigter. Im Englischen kann „Stake" auch mit Einsatz, Anteil oder Anspruch, Erwartung übersetzt werden, „holder" kann mit Eigentümer oder Besitzer übersetzt werden. Der Stakeholder ist jemand, dessen Erwartung bzw. Einsatz auf dem Spiel steht und der daher ein Interesse an der Zielerreichung hat. Der Begriff „Stakeholder" wird nicht nur für Personen verwendet, die tatsächlich einen Einsatz geleistet haben, sondern für alle, die ein Interesse am Verlauf oder Ergebnis eines Prozesses, eines Projektes oder Investments haben. So können beispielsweise auch Kunden/Kundinnen oder Mitarbeitende die Funktion von Stakeholdern einnehmen.',
       importantWords: [
         { german: "Anspruchsgruppen", spanish: "Grupos de interés" },
         { german: "Teilhaber", spanish: "Socio/partícipe" },
-        { german: "Anspruchsberechtigter", spanish: "Beneficiario/derechohabiente" },
+        {
+          german: "Anspruchsberechtigter",
+          spanish: "Beneficiario/derechohabiente",
+        },
         { german: "Einsatz", spanish: "Apuesta/inversión" },
       ],
     },
@@ -465,7 +518,10 @@ export const sectionA:Card[]=[{
       title: "Antwort",
       text: "Der Deckungsbeitrag ist eine Teilkostenberechnung, welche sich aus der Differenz zwischen den erzielten Erlösen und den variablen Kosten berechnet. Der Deckungsbeitrag ist der Betrag, der zur Deckung der Fixkosten zur Verfügung steht. Formel: Deckungsbeitrag = Erlös – variable Kosten.",
       importantWords: [
-        { german: "Teilkostenberechnung", spanish: "Cálculo de costos parciales" },
+        {
+          german: "Teilkostenberechnung",
+          spanish: "Cálculo de costos parciales",
+        },
         { german: "Differenz", spanish: "Diferencia" },
         { german: "Erlösen", spanish: "Ingresos" },
         { german: "variablen Kosten", spanish: "Costos variables" },
@@ -516,7 +572,10 @@ export const sectionA:Card[]=[{
       text: "Es gibt eine Reihe von Synonymen für eine Supportanfragende Software. Folgende Begrifflichkeiten existieren wie: Ticketing-System, User-Helpdesk-System, Support-Ticketing-System, Service-Ticket-System, Task-Tracking-System, Request-Tracking-System (RTS). Bei diesen Softwarelösungen geht es grundsätzlich um Umfang, Bestätigung, Klassifizierung, Bearbeitung sowie die Pflege von Kundenanfragen in Form von sogenannten Tickets bzw. Fällen/Cases. Die eingehenden Kundenanfragen können klassisch per Telefon, per Mail, als Faxe oder in einem Online-Tool entgegengenommen werden. Moderne Tracking-Systeme haben in der Regel eine komplexe Datenbank sowie eine Schnittstelle zu einem Webportal, wo der Kunde den Bearbeitungsstatus jederzeit verfolgen kann.",
       importantWords: [
         { german: "Ticketing-System", spanish: "Sistema de tickets" },
-        { german: "User-Helpdesk-System", spanish: "Sistema de mesa de ayuda de usuario" },
+        {
+          german: "User-Helpdesk-System",
+          spanish: "Sistema de mesa de ayuda de usuario",
+        },
         { german: "Klassifizierung", spanish: "Clasificación" },
         { german: "Bearbeitung", spanish: "Procesamiento" },
       ],
@@ -531,7 +590,10 @@ export const sectionA:Card[]=[{
       difficulty: 3,
       importantWords: [
         { german: "Vorteile", spanish: "Ventajas" },
-        { german: "User-Helpdesk-Ticketsystem", spanish: "Sistema de tickets de mesa de ayuda de usuario" },
+        {
+          german: "User-Helpdesk-Ticketsystem",
+          spanish: "Sistema de tickets de mesa de ayuda de usuario",
+        },
       ],
     },
     answer: {
@@ -541,9 +603,13 @@ export const sectionA:Card[]=[{
         { german: "Fehler-historie", spanish: "Historial de errores" },
         { german: "Weiterentwicklung", spanish: "Desarrollo" },
         { german: "Kategorisierung", spanish: "Categorización" },
-        { german: "Wissensdatenbank", spanish: "Base de datos de conocimiento" },
+        {
+          german: "Wissensdatenbank",
+          spanish: "Base de datos de conocimiento",
+        },
         { german: "Fehleranalyse", spanish: "Análisis de errores" },
         { german: "ausgewertet", spanish: "Evaluadas" },
       ],
     },
-  },]
+  },
+];
