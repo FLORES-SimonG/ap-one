@@ -70,7 +70,7 @@ export default function LearningCard() {
         <div className="flex gap-4 w-full items-center justify-center">
           <button
             onClick={handlePrev}
-            className="px-4 py-2 bg-gray-600 text-white rounded-lg shadow hover:bg-gray-700"
+            className="px-4 py-2 bg-gray-600 text-white rounded-lg shadow hover:bg-gray-700 flex justify-center items-center gap-2 content-center"
           >
             ← <span className="hidden sm:block">Pregunta anterior</span>
           </button>
@@ -85,7 +85,7 @@ export default function LearningCard() {
 
           <button
             onClick={handleNext}
-            className="px-4 py-2 bg-purple-600 text-white rounded-lg shadow hover:bg-purple-700"
+            className="px-4 py-2 bg-purple-600 text-white rounded-lg shadow hover:bg-purple-700 flex justify-center items-center gap-2 content-center"
           >
             <span className="hidden sm:block">Siguiente pregunta</span> →
           </button>

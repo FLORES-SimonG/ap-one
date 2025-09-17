@@ -13,7 +13,7 @@ export default function AnswerSection({
   setFlipped,
 }: AnswerSectionProps) {
   return (
-    <div className=" bg-white dark:bg-gray-800 shadow-xl rounded-2xl flex justify-center items-center h-96 overflow-scroll flex-col gap-4">
+    <div className="bg-white dark:bg-gray-800 shadow-xl rounded-2xl flex justify-start xl:justify-center items-center h-96 overflow-scroll flex-col gap-4 p-8">
       <h2 className="text-xl font-bold text-center">{title}</h2>
       <p className="text-center text-gray-700 dark:text-gray-300">{text}</p>
       <button
