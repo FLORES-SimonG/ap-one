@@ -26,6 +26,7 @@ export const sectionB:Card[]=[
   },
   {
     number: "25",
+    withImage:true,
     section: "Informieren und Beraten von Kunden und Kundinnen",
     question: {
       title: "Frage",
@@ -48,6 +49,7 @@ export const sectionB:Card[]=[
   },
   {
     number: "26",
+    withImage:true,
     section: "Informieren und Beraten von Kunden und Kundinnen",
     question: {
       title: "Frage",
@@ -91,6 +93,7 @@ export const sectionB:Card[]=[
   },
   {
     number: "28",
+    withImage:true,
     section: "Informieren und Beraten von Kunden und Kundinnen",
     question: {
       title: "Frage",
