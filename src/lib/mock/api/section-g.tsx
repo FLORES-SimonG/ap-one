@@ -3,6 +3,7 @@ import { Card } from "@/lib/interfaces/cards";
 export const sectionG:Card[]=[
   {
     number: "210",
+    withImage:true,
     section: "Auftragsabschluss und Leistungserbringung",
     question: {
       title: "Frage",
@@ -276,6 +277,7 @@ export const sectionG:Card[]=[
   },
   {
     number: "203",
+    withImage:true,
     section: "Auftragsabschluss und Leistungserbringung",
     question: {
       title: "Frage",
@@ -696,6 +698,7 @@ export const sectionG:Card[]=[
   },
   {
     number: "211",
+    withImage:true,
     section: "Auftragsabschluss und Leistungserbringung",
     question: {
       title: "Frage",
@@ -737,6 +740,7 @@ export const sectionG:Card[]=[
   },
   {
     number: "212",
+    withImage:true,
     section: "Auftragsabschluss und Leistungserbringung",
     question: {
       title: "Frage",
@@ -782,6 +786,7 @@ export const sectionG:Card[]=[
   },
   {
     number: "213",
+    withImage:true,
     section: "Auftragsabschluss und Leistungserbringung",
     question: {
       title: "Frage",
@@ -949,6 +954,7 @@ export const sectionG:Card[]=[
   },
   {
     number: "216",
+    withImage:true,
     section: "Auftragsabschluss und Leistungserbringung",
     question: {
       title: "Frage",
