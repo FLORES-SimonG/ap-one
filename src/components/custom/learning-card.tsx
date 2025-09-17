@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { learningCards } from "@/lib/mock/api/cards";
 import AnswerSection from "./answer-section";
 import QuestionSection from "./question-section";
@@ -36,36 +36,51 @@ export default function LearningCard() {
       />
       <div className="flex flex-col gap-4">
         <div className="relative w-full xl:w-5xl h-full p-2">
-          {sectionImportantWords === false ? (
-            <motion.div
-              animate={{ rotateY: flipped ? 180 : 0 }}
-              transition={{ duration: 0.6 }}
-              style={{ transformStyle: "preserve-3d" }}
-            >
-              <QuestionSection
-                title={card.question.title}
-                text={card.question.text}
-                setFlipped={setFlipped}
-              />
-              <AnswerSection
-                title={card.answer.title}
-                text={card.answer.text}
-                setFlipped={setFlipped}
-              />
-            </motion.div>
-          ) : (
-            <ImportantWords
-              questions={card.question.importantWords}
-              answers={card.answer.importantWords}
-            />
-          )}
+          <AnimatePresence mode="wait">
+            {sectionImportantWords === false ? (
+              <motion.div
+                key="qa-card"
+                initial={{ opacity: 0, rotateY: -90 }}
+                animate={{ opacity: 1, rotateY: flipped ? 180 : 0 }}
+                exit={{ opacity: 0, rotateY: -90 }}
+                transition={{ duration: 0.6 }}
+                style={{ transformStyle: "preserve-3d" }}
+              >
+                <QuestionSection
+                  title={card.question.title}
+                  text={card.question.text}
+                  setFlipped={setFlipped}
+                />
+                <AnswerSection
+                  title={card.answer.title}
+                  text={card.answer.text}
+                  setFlipped={setFlipped}
+                />
+              </motion.div>
+            ) : (
+              <motion.div
+                key="important-words"
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.9 }}
+                transition={{ duration: 0.5 }}
+              >
+                <ImportantWords
+                  questions={card.question.importantWords}
+                  answers={card.answer.importantWords}
+                />
+              </motion.div>
+            )}
+          </AnimatePresence>
         </div>
+
         <NavigationButtons
           onPrev={handlePrev}
           onNext={handleNext}
-          onToggleImportant={() =>
-            setSectionImportantWords(!sectionImportantWords)
-          }
+          onToggleImportant={() => {
+            setFlipped(!flipped);
+            setSectionImportantWords(!sectionImportantWords);
+          }}
         />
       </div>
     </div>
