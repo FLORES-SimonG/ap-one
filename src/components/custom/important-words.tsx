@@ -13,7 +13,7 @@ export default function ImportantWords({
 }: ImportantWordsParam) {
   return (
     <div
-      className="flex flex-col items-center justify-center bg-yellow-100 dark:bg-yellow-900 p-6 rounded-xl shadow-lg "
+      className="flex flex-col items-center justify-center bg-yellow-100 dark:bg-yellow-900 p-6 rounded-xl shadow-lg h-full "
       
     >
       <h2 className="text-lg font-bold text-yellow-800 dark:text-yellow-200 mb-4">

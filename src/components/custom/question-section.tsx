@@ -13,7 +13,7 @@ export default function QuestionSection({
 }: QuestionSectionProps) {
   return (
     <div
-      className="absolute h-full inset-0 bg-gray-100 dark:bg-gray-900 shadow-xl rounded-2xl flex flex-col justify-center items-center p-6 backface-hidden self-center"
+      className="absolute h-full inset-0 bg-gray-100 dark:bg-gray-900 shadow-xl rounded-2xl flex flex-col justify-center items-center p-6 backface-hidden self-center overflow-scroll"
       style={{ transform: "rotateY(180deg)" }}
     >
       <h2 className="text-xl font-bold mb-4 text-center">{title}</h2>
@@ -24,7 +24,7 @@ export default function QuestionSection({
         onClick={() => setFlipped(false)}
         className="mt-6 px-4 py-2 bg-green-600 text-white rounded-lg shadow hover:bg-green-700"
       >
-        Ver pregunta
+        Ver respuesta
       </button>
     </div>
   );
