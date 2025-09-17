@@ -586,6 +586,7 @@ export const sectionD: Card[] = [
   },
   {
     number: "121",
+    withImage:true,
     section: "Entwickeln, Erstellen und Betreuen von IT-Lösungen",
     question: {
       title: "Frage",
