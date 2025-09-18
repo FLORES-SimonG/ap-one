@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
+import { Switch } from "@/components/ui/switch";
 import { motion, AnimatePresence } from "framer-motion";
 import { learningCards } from "@/lib/mock/api/cards";
 import AnswerSection from "./answer-section";
@@ -13,6 +15,7 @@ export default function LearningCard() {
   const [flipped, setFlipped] = useState(true);
   const [index, setIndex] = useState(0);
   const [sectionImportantWords, setSectionImportantWords] = useState(false);
+  const [language, setLanguage] = useState<true | false>(true);
   const card = learningCards[index];
 
   const handleNext = () => {
@@ -29,6 +32,20 @@ export default function LearningCard() {
 
   return (
     <div className="flex flex-col items-center gap-4 content-center justify-center h-full ">
+      <div className="flex items-center gap-2 mb-2">
+        <span className={language === false ? "opacity-100" : "opacity-50"}>
+          🇪🇸
+        </span>
+        <Switch
+          checked={language === true}
+          onCheckedChange={() => setLanguage(!language)}
+          className="mx-1"
+          aria-label="Cambiar idioma"
+        />
+        <span className={language === true ? "opacity-100" : "opacity-50"}>
+          🇩🇪
+        </span>
+      </div>
       <ProgressCard
         currentIndex={index}
         total={learningCards.length}
@@ -48,12 +65,20 @@ export default function LearningCard() {
               >
                 <QuestionSection
                   title={card.question.title}
-                  text={card.question.text}
+                  text={
+                    language === false && card.question.textToSpanish
+                      ? card.question.textToSpanish
+                      : card.question.text
+                  }
                   setFlipped={setFlipped}
                 />
                 <AnswerSection
                   title={card.answer.title}
-                  text={card.answer.text}
+                  text={
+                    language === false && card.answer.textToSpanish
+                      ? card.answer.textToSpanish
+                      : card.answer.text
+                  }
                   setFlipped={setFlipped}
                 />
               </motion.div>
