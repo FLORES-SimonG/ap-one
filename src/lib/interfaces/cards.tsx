@@ -5,6 +5,7 @@ interface ImportantWord {
 
 interface Question {
   title: string;
+  textToSpanish:string
   text: string; 
   difficulty: number; 
   importantWords: ImportantWord[];
@@ -12,10 +13,10 @@ interface Question {
 
 interface Answer {
   title: string; 
+  textToSpanish:string
   text: string; 
   importantWords: ImportantWord[];
 }
-
 
 
 export interface Card {
