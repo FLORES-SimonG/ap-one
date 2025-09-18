@@ -8,6 +8,7 @@ export const sectionF: Card[] = [
     question: {
       title: "Frage",
       text: "Was sollte man beim Verschrotten von Datenträgern unbedingt beachten?",
+    textToSpanish: "¿Qué se debe tener absolutamente en cuenta al destruir soportes de datos?",
       difficulty: 1,
       importantWords: [
         {
@@ -23,6 +24,7 @@ export const sectionF: Card[] = [
     answer: {
       title: "Antwort",
       text: "Alle Daten sind vor der Verschrottung eines Datenträgers durch technische Verfahren, wie zum Beispiel durch mechanische, magnetische oder thermische Verfahren nach DIN 66399 sicher zu löschen. Anschließend sind die Datenträger umwelt- und fachgerecht durch ein zertifiziertes Entsorgungsunternehmen zu entsorgen.",
+    textToSpanish: "Todos los datos deben ser eliminados de forma segura antes de la destrucción de un soporte de datos, utilizando procedimientos técnicos como métodos mecánicos, magnéticos o térmicos según la norma DIN 66399. Posteriormente, los soportes deben eliminarse de manera ecológica y profesional a través de una empresa certificada de eliminación.",
       importantWords: [
         {
           german: "Verschrottung",
@@ -58,6 +60,7 @@ export const sectionF: Card[] = [
     question: {
       title: "Frage",
       text: "Was bedeutet der Begriff MFA (Multi-Factor-Authentication) und wo kommt sie zum Einsatz?",
+    textToSpanish: "¿Qué significa el término MFA (autenticación multifactor) y dónde se utiliza?",
       difficulty: 1,
       importantWords: [
         {
@@ -73,6 +76,7 @@ export const sectionF: Card[] = [
     answer: {
       title: "Antwort",
       text: "Die Multi-Factor-Authentication (MFA) ist eine erweiterte Form der Zugangsberechtigung, die durch mehrere unabhängige Merkmale (Faktoren) überprüft wird. Der Zugang wird erst nach Eingabe eines starken Passworts sowie der Eingabe einer Nummer (via SMS oder App) oder Angabe einer Zertifikatsdatei erteilt. \n\n**Einsatzbereiche sind:**\n\n* Online-Banking\n* Debit- oder Kreditkartenzahlung\n* Online-Ausweisfunktion des Personalausweises\n* Absicherung jeglicher öffentlich zugänglicher Onlinezugänge",
+    textToSpanish: "La autenticación multifactor (MFA) es una forma avanzada de autorización de acceso que se verifica mediante varios factores independientes. El acceso solo se concede tras introducir una contraseña fuerte y, además, un número (por SMS o app) o un archivo de certificado.\n\n**Áreas de aplicación:**\n\n* Banca en línea\n* Pago con tarjeta de débito o crédito\n* Función de identificación en línea del documento de identidad\n* Protección de cualquier acceso en línea de acceso público",
       importantWords: [
         {
           german: "Zugangsberechtigung",
@@ -124,6 +128,7 @@ export const sectionF: Card[] = [
     question: {
       title: "Frage",
       text: "Beschreibe den Begriff Datensicherheit und nenne deren Schutzziele.",
+    textToSpanish: "Describe el término seguridad de los datos y nombra sus objetivos de protección.",
       difficulty: 2,
       importantWords: [
         {
@@ -139,6 +144,7 @@ export const sectionF: Card[] = [
     answer: {
       title: "Antwort",
       text: "Die **Datensicherheit**, oft auch als **Informationssicherheit** bezeichnet, umfasst alle technischen und nicht-technischen Maßnahmen zur Sicherstellung der Schutzziele:\n\n1.  **Vertraulichkeit:** Schutz vor unbefugtem Zugriff.\n2.  **Verfügbarkeit:** Gewährleistung, dass Systeme und Daten nutzbar sind, wenn sie benötigt werden.\n3.  **Integrität:** Schutz vor unbefugter oder unbeabsichtigter Veränderung von Daten.\n\nEin weiteres wichtiges Schutzziel ist die **Authentizität**, die die Echtheit, Überprüfbarkeit und Vertrauenswürdigkeit eines Objekts sicherstellt.\n\nDatensicherheit unterscheidet sich vom Datenschutz dadurch, dass sie nicht nach der Art der Daten unterscheidet, sondern den allgemeinen Schutz vor Gefahren, Bedrohungen und der Vermeidung wirtschaftlicher Schäden und der Minimierung von Risiken im IT-Bereich zum Ziel hat. (siehe Karte 178)",
+    textToSpanish: "La **seguridad de los datos**, también llamada **seguridad de la información**, abarca todas las medidas técnicas y no técnicas para garantizar los siguientes objetivos de protección:\n\n1.  **Confidencialidad:** Protección contra el acceso no autorizado.\n2.  **Disponibilidad:** Garantizar que los sistemas y datos estén disponibles cuando se necesiten.\n3.  **Integridad:** Protección contra la modificación no autorizada o accidental de los datos.\n\nOtro objetivo importante es la **autenticidad**, que asegura la veracidad, verificabilidad y confiabilidad de un objeto.\n\nLa seguridad de los datos se diferencia de la protección de datos en que no distingue el tipo de datos, sino que busca la protección general contra peligros, amenazas, daños económicos y la minimización de riesgos en el ámbito de TI. (ver tarjeta 178)",
       importantWords: [
         {
           german: "Datensicherheit",
@@ -186,6 +192,7 @@ export const sectionF: Card[] = [
     question: {
       title: "Frage",
       text: "Worin unterscheiden sich Datensicherheit und Datenschutz?",
+    textToSpanish: "¿En qué se diferencian la seguridad de los datos y la protección de datos?",
       difficulty: 3,
       importantWords: [
         {
@@ -205,6 +212,7 @@ export const sectionF: Card[] = [
     answer: {
       title: "Antwort",
       text: "Die **Datensicherheit**, auch **Informationssicherheit** genannt, verfolgt die drei Schutzziele **Vertraulichkeit, Verfügbarkeit** und **Integrität** sowie die **Authentizität**. Hierbei wird nicht nach der Art der Daten (z. B. personenbezogen) unterschieden.\n\nDer **Datenschutz** verfolgt das Ziel, **personenbezogene Daten** zu schützen und die Informationspflichten sowie die Rechte der Personen, von denen Daten erhoben werden, zu gewährleisten.",
+    textToSpanish: "La **seguridad de los datos**, también llamada **seguridad de la información**, persigue los objetivos de protección de **confidencialidad, disponibilidad** e **integridad**, así como la **autenticidad**. No distingue el tipo de datos (por ejemplo, datos personales).\n\nLa **protección de datos** tiene como objetivo proteger los **datos personales** y garantizar los deberes de información y los derechos de las personas cuyos datos se recopilan.",
       importantWords: [
         {
           german: "Datensicherheit",
@@ -252,6 +260,7 @@ export const sectionF: Card[] = [
     question: {
       title: "Frage",
       text: "Nenne die wesentlichen Vorteile einer ISO/IEC 27001 Zertifizierung für Unternehmen.",
+    textToSpanish: "Nombra las principales ventajas de una certificación ISO/IEC 27001 para las empresas.",
       difficulty: 2,
       importantWords: [
         {
@@ -271,6 +280,7 @@ export const sectionF: Card[] = [
     answer: {
       title: "Antwort",
       text: "Die internationale Norm ISO/IEC 27001 beschreibt die Anforderungen an ein funktionsfähiges **Informationssicherheits-Managementsystem (ISMS)**. Eine erfolgreiche Zertifizierung hilft dabei, IT-Risiken zu minimieren und die Qualität von IT-Systemen nachhaltig zu optimieren. Weitere Vorteile sind:\n\n* IT-Risiken, mögliche Schäden und Folgekosten abschätzen bzw. minimieren\n* Wettbewerbsvorteil durch anerkannten internationalen Standard\n* Steigerung des Vertrauens gegenüber Partnern, Kunden sowie der Öffentlichkeit\n* Sicherstellung von Compliance-Anforderungen\n* Systematisches Aufdecken von Schwachstellen",
+    textToSpanish: "La norma internacional ISO/IEC 27001 describe los requisitos para un **sistema de gestión de la seguridad de la información (SGSI)** funcional. Una certificación exitosa ayuda a minimizar los riesgos de TI y a optimizar de manera sostenible la calidad de los sistemas de TI. Otras ventajas son:\n\n* Evaluar y minimizar riesgos de TI, posibles daños y costes derivados\n* Ventaja competitiva gracias a un estándar internacional reconocido\n* Aumento de la confianza de socios, clientes y del público\n* Cumplimiento de requisitos de compliance\n* Detección sistemática de vulnerabilidades",
       importantWords: [
         {
           german: "internationale Norm",
@@ -319,6 +329,7 @@ export const sectionF: Card[] = [
     question: {
       title: "Frage",
       text: "In der Informationssicherheit kommt es neben Sicherheits- und Datenschutzaspekten auch auf die Datenminimierung an. Welches sind die Ziele bei der Datenminimierung?",
+    textToSpanish: "En la seguridad de la información, además de los aspectos de seguridad y protección de datos, también es importante la minimización de datos. ¿Cuáles son los objetivos de la minimización de datos?",
       difficulty: 1,
       importantWords: [
         {
@@ -338,6 +349,7 @@ export const sectionF: Card[] = [
     answer: {
       title: "Antwort",
       text: "**Datenminimierung** und **Datensparsamkeit** sind grundlegende Regeln im Bereich des Datenschutzes. Diese Regel besagt, dass bei der Datenverarbeitung nur so viele personenbezogene Daten gesammelt werden, wie für die jeweiligen Verarbeitungszwecke unbedingt notwendig sind.\n\nEs gilt hier der Grundsatz: „So viele Daten wie nötig, so wenige Daten wie möglich“.\n\nBetroffene sollen dadurch vor einer übermäßigen Speicherung personenbezogener Daten geschützt werden.",
+    textToSpanish: "La **minimización de datos** y la **economía de datos** son reglas fundamentales en el ámbito de la protección de datos. Esta regla establece que, en el procesamiento de datos, solo se deben recopilar los datos personales estrictamente necesarios para los fines de procesamiento correspondientes.\n\nEl principio es: 'Tantos datos como sea necesario, tan pocos como sea posible'.\n\nEsto protege a los afectados contra el almacenamiento excesivo de datos personales.",
       importantWords: [
         {
           german: "Datenminimierung",
@@ -377,6 +389,7 @@ export const sectionF: Card[] = [
     question: {
       title: "Frage",
       text: "Der Datenschutz ist auf europäischer Ebene in Verordnungen in der DSGVO beschrieben. Welche Rechte hat eine Person betreffend ihrer personenbezogenen Daten?",
+    textToSpanish: "La protección de datos está regulada a nivel europeo en el RGPD. ¿Qué derechos tiene una persona respecto a sus datos personales?",
       difficulty: 2,
       importantWords: [
         {
@@ -400,6 +413,7 @@ export const sectionF: Card[] = [
     answer: {
       title: "Antwort",
       text: "In Kapitel 3 der **DSGVO** (RGPD) sind folgende Rechte für die betroffene Person enthalten:\n\n* **Recht auf Auskunft** (Informationspflicht)\n* **Recht auf Berichtigung**\n* **Recht auf Löschung** (das „Recht auf Vergessenwerden“)\n* **Recht auf Einschränkung der Verarbeitung**\n* **Recht auf Datenübertragbarkeit**\n* **Widerspruchsrecht**\n* **Automatisierte Entscheidungsfindung** im Einzelfall",
+    textToSpanish: "En el capítulo 3 del **RGPD** se incluyen los siguientes derechos para la persona afectada:\n\n* **Derecho de acceso** (obligación de información)\n* **Derecho de rectificación**\n* **Derecho de supresión** (el 'derecho al olvido')\n* **Derecho a la limitación del tratamiento**\n* **Derecho a la portabilidad de los datos**\n* **Derecho de oposición**\n* **Toma de decisiones automatizada** en casos individuales",
       importantWords: [
         {
           german: "DSGVO",
@@ -447,6 +461,7 @@ export const sectionF: Card[] = [
     question: {
       title: "Frage",
       text: "Was ist eine PKI (Public Key Infrastructure)?",
+    textToSpanish: "¿Qué es una PKI (infraestructura de clave pública)?",
       difficulty: 3,
       importantWords: [
         {
@@ -458,6 +473,7 @@ export const sectionF: Card[] = [
     answer: {
       title: "Antwort",
       text: "Eine **Public-Key-Infrastruktur (PKI)** ist ein kryptologisches System, das innerhalb einer Infrastruktur digitale Zertifikate ausstellen, verteilen und prüfen kann. Es nutzt ein **Asymmetrisches Kryptosystem**, um den Datenverkehr in einem Netzwerk abzusichern, indem es Daten digital signiert und verschlüsselt.\n\nZu den **Bestandteilen** einer PKI gehören unter anderem:\n\n* **Zertifizierungsstellen (CAs)**\n* untergeordnete Registrierungsstellen\n* digitale Zertifikate\n* Verzeichnisdienste für Zertifikate\n* Zertifikatssperrlisten\n* Validierungsservices\n\nEs gibt einstufige und mehrstufige Modelle einer PKI.",
+    textToSpanish: "Una **infraestructura de clave pública (PKI)** es un sistema criptológico que puede emitir, distribuir y verificar certificados digitales dentro de una infraestructura. Utiliza un **sistema criptográfico asimétrico** para proteger el tráfico de datos en una red, firmando y cifrando digitalmente los datos.\n\nEntre los **componentes** de una PKI se incluyen:\n\n* **Autoridades de certificación (CA)**\n* Autoridades de registro subordinadas\n* Certificados digitales\n* Servicios de directorio para certificados\n* Listas de revocación de certificados\n* Servicios de validación\n\nExisten modelos de PKI de uno o varios niveles.",
       importantWords: [
         {
           german: "kryptologisches System",
@@ -489,6 +505,7 @@ export const sectionF: Card[] = [
     question: {
       title: "Frage",
       text: "Was versteht man unter einem digitalen Zertifikat?",
+    textToSpanish: "¿Qué se entiende por un certificado digital?",
       difficulty: 2,
       importantWords: [
         {
@@ -500,6 +517,7 @@ export const sectionF: Card[] = [
     answer: {
       title: "Antwort",
       text: "Ein **digitales Zertifikat** ist ein digitaler Datensatz, der mit Hilfe von kryptografischen Schlüsselpaaren die **Authentizität** von Webseiten, Einzelpersonen oder Organisationen überprüfen kann. Es basiert in der Regel auf dem **X.509-Standard**.\n\nEin digitales Zertifikat besteht aus einem **öffentlichen** und einem **privaten Schlüssel** sowie aus Informationen zur Identität der verknüpften Entität und der ausstellenden Zertifizierungsstelle. Es dient dazu, die Schutzziele der Datensicherheit, insbesondere **Vertraulichkeit** und **Authentizität**, zu gewährleisten.",
+    textToSpanish: "Un **certificado digital** es un conjunto de datos digital que, mediante pares de claves criptográficas, puede verificar la **autenticidad** de sitios web, personas u organizaciones. Normalmente se basa en el **estándar X.509**.\n\nUn certificado digital consta de una **clave pública** y una **clave privada**, así como de información sobre la identidad de la entidad vinculada y la autoridad de certificación emisora. Sirve para garantizar los objetivos de la seguridad de los datos, especialmente la **confidencialidad** y la **autenticidad**.",
       importantWords: [
         {
           german: "digitaler Datensatz",
@@ -547,6 +565,7 @@ export const sectionF: Card[] = [
     question: {
       title: "Frage",
       text: "Was ist eine SPI (Stateful Packet Inspection) Firewall?",
+    textToSpanish: "¿Qué es un cortafuegos SPI (inspección de paquetes con estado)?",
       difficulty: 1,
       importantWords: [
         {
@@ -558,6 +577,7 @@ export const sectionF: Card[] = [
     answer: {
       title: "Antwort",
       text: "Im Gegensatz zur klassischen Firewall nutzt eine **Stateful Packet Inspection (SPI)** Firewall eine zustandsorientierte Paketüberprüfung. Jedes Datenpaket wird auf der Vermittlungsschicht (Schicht 3 des **OSI-Modells**) einer bestimmten aktiven Sitzung zugeordnet, und der Verbindungsstatus wird in dynamischen Zustandstabellen gespeichert.\n\nSo werden bei **TCP**-Verbindungen die Bits SYN, ACK, FIN und RST ausgewertet, um über die Weiterleitung von Datenpaketen zu entscheiden. Auch die eigentlich zustandslosen **UDP**-Datenpakete können so zustandsorientiert behandelt werden.",
+    textToSpanish: "A diferencia de un cortafuegos clásico, un cortafuegos de **inspección de paquetes con estado (SPI)** realiza una verificación de paquetes basada en el estado. Cada paquete de datos se asigna, en la capa de red (capa 3 del **modelo OSI**), a una sesión activa específica y el estado de la conexión se almacena en tablas dinámicas de estado.\n\nAsí, en las conexiones **TCP**, se evalúan los bits SYN, ACK, FIN y RST para decidir sobre el reenvío de los paquetes de datos. Incluso los paquetes **UDP**, que en principio no tienen estado, pueden tratarse de forma orientada al estado.",
       importantWords: [
         {
           german: "klassischen Firewall",
@@ -601,6 +621,7 @@ export const sectionF: Card[] = [
     question: {
       title: "Frage",
       text: "Was versteht man unter dem Begriff Endpoint-Security?",
+    textToSpanish: "¿Qué se entiende por el término Endpoint-Security (seguridad de los puntos finales)?",
       difficulty: 1,
       importantWords: [
         {
@@ -612,6 +633,7 @@ export const sectionF: Card[] = [
     answer: {
       title: "Antwort",
       text: "Unter **Endpoint-Security-Management** versteht man alle Maßnahmen und Richtlinien, die dazu dienen, Endgeräte, die auf ein Netzwerk zugreifen, vor schädlichen Angriffen bzw. unbefugten Zugriffen Dritter zu schützen.\n\nZu den Maßnahmen zählen unter anderem:\n\n* **Anwendungsisolation** von E-Mail- und Office-Programmen\n* **Überwachung und Verwaltung von externen Datenträgern**, die über eine Art Whitelist geregelt wird",
+    textToSpanish: "La **gestión de la seguridad de los puntos finales** comprende todas las medidas y políticas destinadas a proteger los dispositivos finales que acceden a una red contra ataques maliciosos o accesos no autorizados de terceros.\n\nEntre las medidas se incluyen:\n\n* **Aislamiento de aplicaciones** de programas de correo electrónico y oficina\n* **Supervisión y gestión de soportes de datos externos**, regulada mediante una especie de lista blanca",
       importantWords: [
         {
           german: "Endpoint-Security-Management",
@@ -651,6 +673,7 @@ export const sectionF: Card[] = [
     question: {
       title: "Frage",
       text: "Welche Anwendungen oder Verfahren verwenden kryptografische Hashfunktionen?",
+    textToSpanish: "¿Qué aplicaciones o procedimientos utilizan funciones hash criptográficas?",
       difficulty: 1,
       importantWords: [
         {
@@ -670,6 +693,7 @@ export const sectionF: Card[] = [
     answer: {
       title: "Antwort",
       text: "Kryptografische Hashfunktionen werden in den folgenden Anwendungen und Verfahren eingesetzt:\n\n* Integritätsprüfungen\n* Erzeugung von Prüfsummen\n* Erzeugung von Sitzungsschlüsseln\n* Generatoren für Einmal-Passwörter\n* Verfahren zur Authentifizierung mit digitalen Signaturen\n* Speichern von Passwörtern",
+    textToSpanish: "Las funciones hash criptográficas se utilizan en las siguientes aplicaciones y procedimientos:\n\n* Verificaciones de integridad\n* Generación de sumas de verificación\n* Generación de claves de sesión\n* Generadores de contraseñas de un solo uso\n* Procedimientos de autenticación con firmas digitales\n* Almacenamiento de contraseñas",
       importantWords: [
         {
           german: "Integritätsprüfungen",
@@ -705,6 +729,7 @@ export const sectionF: Card[] = [
     question: {
       title: "Frage",
       text: "Nenne Einsatzbereiche und Verfahren von symmetrischen Schlüsseln.",
+    textToSpanish: "Nombra áreas de aplicación y procedimientos de claves simétricas.",
       difficulty: 1,
       importantWords: [
         {
@@ -724,6 +749,7 @@ export const sectionF: Card[] = [
     answer: {
       title: "Antwort",
       text: "Die symmetrische Verschlüsselung verwendet denselben geheimen Schlüssel für die Ver- und Entschlüsselung. Typische Verfahren sind:\n\n* **Verfahren/Algorithmen:** DES, 3DES, AES\n\n**Einsatzbereiche:**\n\n* Datenbanken\n* Lokale Dateisysteme\n* E-Mail-Verschlüsselung\n* VPN-Verbindungen\n\n**Vorteil:** Symmetrische Verfahren sind im Vergleich zu asymmetrischen Verfahren sehr schnell und eignen sich daher gut für die Massenverschlüsselung von Daten. (siehe Karte 188)",
+    textToSpanish: "El cifrado simétrico utiliza la misma clave secreta para cifrar y descifrar. Los procedimientos típicos son:\n\n* **Procedimientos/algoritmos:** DES, 3DES, AES\n\n**Áreas de aplicación:**\n\n* Bases de datos\n* Sistemas de archivos locales\n* Cifrado de correo electrónico\n* Conexiones VPN\n\n**Ventaja:** Los procedimientos simétricos son mucho más rápidos que los asimétricos y, por tanto, muy adecuados para el cifrado masivo de datos. (ver tarjeta 188)",
       importantWords: [
         {
           german: "symmetrische Verschlüsselung",
@@ -771,6 +797,7 @@ export const sectionF: Card[] = [
     question: {
       title: "Frage",
       text: "Erläutere den Unterschied zwischen einem differentiellen und inkrementellen Backup.",
+    textToSpanish: "Explica la diferencia entre una copia de seguridad diferencial y una incremental.",
       difficulty: 2,
       importantWords: [
         { german: "Erläutere", spanish: "explica" },
@@ -788,6 +815,7 @@ export const sectionF: Card[] = [
     answer: {
       title: "Antwort",
       text: "Differentielles Backup\nEin differentielles Backup ist eine Datensicherungsform, bei der – ausgehend von einem Vollbackup – alle Dateien kopiert werden, die seit der letzten vollständigen Sicherung verändert wurden oder neu hinzugekommen sind.\nBeim vollständigen Wiederherstellen der Daten benötigt man zuerst das letzte Vollbackup und danach das letzte differentielle Backup.\n\nInkrementelles Backup\nEin inkrementelles Backup ist eine Datensicherungsform, bei der – ausgehend von einem Vollbackup – nur die Dateien, die seit der letzten inkrementellen Sicherung verändert wurden oder neu hinzugekommen sind, kopiert werden.\nBeim vollständigen Wiederherstellen der Daten benötigt man zunächst das letzte Vollbackup und danach in der richtigen Reihenfolge die jeweiligen inkrementellen Backups.",
+    textToSpanish: "Copia de seguridad diferencial\nUna copia de seguridad diferencial es una forma de respaldo de datos en la que, partiendo de una copia completa, se copian todos los archivos que han cambiado o se han añadido desde la última copia completa.\nPara restaurar completamente los datos, se necesita primero la última copia completa y luego la última copia diferencial.\n\nCopia de seguridad incremental\nUna copia de seguridad incremental es una forma de respaldo en la que, partiendo de una copia completa, solo se copian los archivos que han cambiado o se han añadido desde la última copia incremental.\nPara restaurar completamente los datos, se necesita primero la última copia completa y luego, en el orden correcto, todas las copias incrementales.",
       importantWords: [
         { german: "Vollbackup", spanish: "copia de seguridad completa" },
         { german: "Dateien", spanish: "archivos" },
@@ -808,6 +836,7 @@ export const sectionF: Card[] = [
     question: {
       title: "Frage",
       text: "Wie gestaltet sich ein vollständiger Backupplan nach dem Großvater-Vater-Sohn-Prinzip?",
+    textToSpanish: "¿Cómo se estructura un plan de copias de seguridad completo según el principio Abuelo-Padre-Hijo?",
       difficulty: 3,
       importantWords: [
         {
@@ -823,6 +852,7 @@ export const sectionF: Card[] = [
     answer: {
       title: "Antwort",
       text: "Das **Großvater-Vater-Sohn-Prinzip** ist ein **Rotationsschema** für die Datensicherung auf Speichermedien. Es ist ein klassisches Schema, das in der Regel 20 Speichermedien für eine 5-Tage-Woche nutzt:\n\n* **Sohn-Medien (4x):** Tägliche Datensicherung, typischerweise als **inkrementelles Backup**.\n* **Vater-Medien (4x):** Wöchentliche Datensicherung, typischerweise als **Vollbackup**.\n* **Großvater-Medien (12x):** Monatliche Datensicherung, ebenfalls als **Vollbackup**.",
+    textToSpanish: "El **principio Abuelo-Padre-Hijo** es un **esquema de rotación** para la copia de seguridad en soportes de almacenamiento. Es un esquema clásico que normalmente utiliza 20 soportes para una semana laboral de 5 días:\n\n* **Soportes Hijo (4x):** Copia diaria, normalmente como copia incremental.\n* **Soportes Padre (4x):** Copia semanal, normalmente como copia completa.\n* **Soportes Abuelo (12x):** Copia mensual, también como copia completa.",
       importantWords: [
         {
           german: "Rotationsschema",
@@ -866,6 +896,7 @@ export const sectionF: Card[] = [
     question: {
       title: "Frage",
       text: "Unterscheide die Begriffe Malware, Ransomware und Trojaner.",
+    textToSpanish: "Diferencia los términos Malware, Ransomware y Troyano.",
       difficulty: 2,
       importantWords: [
         {
@@ -889,6 +920,7 @@ export const sectionF: Card[] = [
     answer: {
       title: "Antwort",
       text: "Die Begriffe lassen sich wie folgt unterscheiden:\n\n* **Malware:** Ein Oberbegriff für **Schadsoftware** oder Schadprogramme aller Art, einschließlich Adware, Spyware, Viren, Würmer, Trojaner und Ransomware.\n\n* **Ransomware:** Eine Art von Malware, die Daten auf einem Computer verschlüsselt und als **„Lösegeld“** die Zahlung einer Geldsumme (z. B. in Bitcoin) fordert, um die Daten wieder zu entschlüsseln.\n\n* **Trojaner:** Eine Art von Malware, die sich als harmloses Computerprogramm tarnt. Im Hintergrund lädt sie ohne das Wissen des Anwenders weitere Schadsoftware nach oder installiert beispielsweise Backdoor-Programme.",
+    textToSpanish: "Los términos se diferencian así:\n\n* **Malware:** Término general para software malicioso de cualquier tipo, incluyendo adware, spyware, virus, gusanos, troyanos y ransomware.\n\n* **Ransomware:** Un tipo de malware que cifra los datos de un ordenador y exige el pago de un **'rescate'** (por ejemplo, en Bitcoin) para descifrarlos.\n\n* **Troyano:** Un tipo de malware que se disfraza de programa inofensivo. En segundo plano, sin que el usuario lo sepa, descarga más software malicioso o instala, por ejemplo, programas de puerta trasera.",
       importantWords: [
         {
           german: "Malware",
@@ -924,6 +956,7 @@ export const sectionF: Card[] = [
     question: {
       title: "Frage",
       text: "In der datenverarbeitenden Industrie kommt dem Datenschutz große Bedeutung zu. Welchem Zweck dient das IT-Sicherheitsmanagement?",
+    textToSpanish: "En la industria del procesamiento de datos, la protección de datos es muy importante. ¿Cuál es el propósito de la gestión de la seguridad de TI?",
       difficulty: 2,
       importantWords: [
         {
@@ -943,6 +976,7 @@ export const sectionF: Card[] = [
     answer: {
       title: "Antwort",
       text: "Das **IT-Sicherheitsmanagement** ist ein permanenter Prozess innerhalb eines Unternehmens oder einer Organisation, der die **IT-Sicherheit** und den **Datenschutz** gewährleisten soll. Sein Hauptzweck ist es, Gefahren und Bedrohungen für die Informationssicherheit zu verhindern oder abzuwehren.",
+    textToSpanish: "La **gestión de la seguridad de TI** es un proceso permanente dentro de una empresa u organización que tiene como objetivo garantizar la **seguridad de TI** y la **protección de datos**. Su propósito principal es prevenir o contrarrestar peligros y amenazas para la seguridad de la información.",
       importantWords: [
         {
           german: "IT-Sicherheitsmanagement",
@@ -978,6 +1012,7 @@ export const sectionF: Card[] = [
     question: {
       title: "Frage",
       text: "Welche Bedingungen muss ein ergonomischer PC-Arbeitsplatz erfüllen?",
+    textToSpanish: "¿Qué condiciones debe cumplir un puesto de trabajo de PC ergonómico?",
       difficulty: 2,
       importantWords: [
         {
@@ -993,6 +1028,7 @@ export const sectionF: Card[] = [
     answer: {
       title: "Antwort",
       text: "Die allgemeinen Ergonomie-Richtlinien sind in der **EU-Richtlinie 90/270/EWG** und in der **Arbeitsstättenverordnung (ArbStättV)** geregelt. Ein ergonomischer PC-Arbeitsplatz muss folgende Bedingungen erfüllen:\n\n* Die oberste Bildschirmzeile des Monitors liegt leicht unterhalb der **Sehachse**.\n* Der Mindestabstand zum Bildschirm beträgt 50 cm.\n* Der Bildschirm sollte frei von störenden Reflexionen und Blendungen sein.\n* Der Bildschirm muss frei stehen sowie leicht drehbar und neigbar sein.\n* Arbeits- und Sitzhöhe müssen an die Körperhöhe anpassbar sein.\n* Ein **90°-Winkel** zwischen Ober- und Unterarm sowie Ober- und Unterschenkel ist optimal.\n* Es muss genug **Bewegungsspielraum** für die Beine vorhanden sein.\n* Eine natürliche Körperhaltung muss jederzeit möglich sein.\n\n",
+    textToSpanish: "Las directrices generales de ergonomía están reguladas en la **Directiva de la UE 90/270/CEE** y en el **Reglamento de Lugares de Trabajo (ArbStättV)**. Un puesto de trabajo de PC ergonómico debe cumplir las siguientes condiciones:\n\n* La línea superior de la pantalla debe estar ligeramente por debajo del **eje de visión**.\n* La distancia mínima a la pantalla es de 50 cm.\n* La pantalla debe estar libre de reflejos y deslumbramientos molestos.\n* La pantalla debe ser independiente, fácilmente giratoria e inclinable.\n* La altura de trabajo y la del asiento deben poder ajustarse a la altura corporal.\n* Un ángulo de **90°** entre el brazo y el antebrazo, así como entre el muslo y la pierna, es óptimo.\n* Debe haber suficiente **margen de movimiento** para las piernas.\n* Debe ser posible mantener una postura natural en todo momento.\n\n",
       importantWords: [
         {
           german: "Ergonomie-Richtlinien",
@@ -1032,6 +1068,7 @@ export const sectionF: Card[] = [
     question: {
       title: "Frage",
       text: "Welche Aussagen trifft die Arbeitsstättenverordnung (ArbStättV) in Bezug auf Bildschirm und Tastatur?",
+    textToSpanish: "¿Qué disposiciones establece el Reglamento de Lugares de Trabajo (ArbStättV) respecto a la pantalla y el teclado?",
       difficulty: 3,
       importantWords: [
         {
@@ -1051,6 +1088,7 @@ export const sectionF: Card[] = [
     answer: {
       title: "Antwort",
       text: "Die **Arbeitsstättenverordnung (ArbStättV)** regelt im Anhang die wesentlichen Anforderungen an einen Bildschirmarbeitsplatz. Für den **Bildschirm** und die **Tastatur** gelten insbesondere folgende Bestimmungen:\n\n**Bildschirm:**\n* Die Zeichen müssen scharf, deutlich und ausreichend groß sein.\n* Das Bild muss stabil, flimmerfrei und ohne Verzerrungen dargestellt werden.\n* Helligkeit und Kontrast müssen einstellbar sein.\n* Der Bildschirmarbeitsplatz muss frei von störenden Reflexionen und Blendungen sein.\n* Das Bildschirmgerät muss leicht dreh- und neigbar sein.\n\n**Tastatur:**\n* Die Tastatur muss vom Bildschirmgerät getrennt und neigbar sein, um eine ergonomische Haltung zu ermöglichen.\n* Sie muss eine Auflagemöglichkeit für die Hände bieten.\n* Die Oberfläche muss reflexionsarm sein.\n* Die Beschriftung muss sich deutlich vom Untergrund abheben und gut lesbar sein.",
+    textToSpanish: "El **Reglamento de Lugares de Trabajo (ArbStättV)** regula en su anexo los requisitos esenciales para un puesto de trabajo con pantalla. Para la **pantalla** y el **teclado** se aplican especialmente las siguientes disposiciones:\n\n**Pantalla:**\n* Los caracteres deben ser nítidos, claros y lo suficientemente grandes.\n* La imagen debe ser estable, sin parpadeos ni distorsiones.\n* El brillo y el contraste deben poder ajustarse.\n* El puesto de trabajo con pantalla debe estar libre de reflejos y deslumbramientos molestos.\n* El monitor debe ser fácilmente giratorio e inclinable.\n\n**Teclado:**\n* El teclado debe estar separado del monitor y ser inclinable para permitir una postura ergonómica.\n* Debe ofrecer un apoyo para las manos.\n* La superficie debe ser antirreflejos.\n* El etiquetado debe destacar claramente sobre el fondo y ser fácil de leer.",
       importantWords: [
         {
           german: "Arbeitsstättenverordnung (ArbStättV)",
@@ -1082,6 +1120,7 @@ export const sectionF: Card[] = [
     question: {
       title: "Frage",
       text: "Welches sind die allgemeinen Kriterien einer Schutzbedarfsanalyse von IT-Systemen?",
+    textToSpanish: "¿Cuáles son los criterios generales de un análisis de necesidad de protección de sistemas de TI?",
       difficulty: 2,
       importantWords: [
         {
@@ -1097,6 +1136,7 @@ export const sectionF: Card[] = [
     answer: {
       title: "Antwort",
       text: "Die allgemeinen Kriterien einer **Schutzbedarfsanalyse** von IT-Systemen umfassen die Bewertung verschiedener Aspekte. Wichtige Kriterien sind:\n\n* Das **Risiko** von Angriffen auf die IT-Infrastruktur.\n* Die zu schützenden Objekte in der IT-Infrastruktur.\n* Konkrete **Bedrohungsszenarien**.\n* Die möglichen **Schäden** durch Angriffe auf die IT-Infrastruktur.\n* Das aktuelle **Gefährdungspotenzial**.\n* Geeignete **Maßnahmen** gegen interne und externe Bedrohungen.\n* Eine **Kosten-Nutzen-Analyse** und die Risikoberechnung.",
+    textToSpanish: "Los criterios generales de un **análisis de necesidad de protección** de sistemas de TI incluyen la evaluación de varios aspectos. Los criterios importantes son:\n\n* El **riesgo** de ataques a la infraestructura de TI.\n* Los objetos a proteger en la infraestructura de TI.\n* **Escenarios de amenaza** concretos.\n* Los posibles **daños** por ataques a la infraestructura de TI.\n* El **potencial de amenaza** actual.\n* **Medidas** adecuadas contra amenazas internas y externas.\n* Un **análisis de costo-beneficio** y el cálculo de riesgos.",
       importantWords: [
         {
           german: "Schutzbedarfsanalyse",
@@ -1140,6 +1180,7 @@ export const sectionF: Card[] = [
     question: {
       title: "Frage",
       text: "Welche Maßnahmen sind geeignet, um Schäden an der IT-Infrastruktur zu vermeiden bzw. die Sicherheit der IT-Systeme zu erhöhen?",
+    textToSpanish: "¿Qué medidas son adecuadas para evitar daños a la infraestructura de TI o aumentar la seguridad de los sistemas de TI?",
       difficulty: 2,
       importantWords: [
         {
@@ -1163,6 +1204,7 @@ export const sectionF: Card[] = [
     answer: {
       title: "Antwort",
       text: "Zur Erhöhung der IT-Sicherheit und Vermeidung von Schäden an der IT-Infrastruktur eignen sich folgende Maßnahmen:\n\n* **Datenverschlüsselung** von Datenträgern.\n* **Netzwerksegmentierung** durch VLANs.\n* Mehrstufiges **Firewallkonzept** und Regeln für die **Endpoint-Security**.\n* Ein **Rechtekonzept** für Mitarbeiter und Administratoren.\n* Regelmäßiges **Patchen** der IT-Systeme.\n* Permanentes **Logging und Auditing** (z. B. durch Penetrationtests).\n* Einsatz einer **Passwortrichtlinie** und **Multi-Factor-Authentication**.\n* **Verfahrensanweisungen** oder das **Vier-Augen-Prinzip**.\n* Regelmäßige **Schulungen** der Mitarbeiter, um das Bewusstsein für Bedrohungen zu erhöhen.",
+    textToSpanish: "Para aumentar la seguridad de TI y evitar daños a la infraestructura de TI, son adecuadas las siguientes medidas:\n\n* **Cifrado de datos** en soportes de datos.\n* **Segmentación de red** mediante VLANs.\n* Concepto de **cortafuegos** multinivel y reglas para la **seguridad de los puntos finales**.\n* Un **concepto de derechos** para empleados y administradores.\n* **Actualización** regular de los sistemas de TI.\n* **Registro y auditoría** permanentes (por ejemplo, mediante pruebas de penetración).\n* Uso de una **política de contraseñas** y **autenticación multifactor**.\n* **Instrucciones de procedimiento** o el **principio de los cuatro ojos**.\n* **Formación** regular de los empleados para aumentar la concienciación sobre las amenazas.",
       importantWords: [
         {
           german: "Datenverschlüsselung",
@@ -1218,6 +1260,7 @@ export const sectionF: Card[] = [
     question: {
       title: "Frage",
       text: "Aus welchen Phasen besteht der Sicherheitsprozess laut BSI IT-Grundschutz?",
+    textToSpanish: "¿De qué fases consta el proceso de seguridad según la protección básica de TI del BSI?",
       difficulty: 3,
       importantWords: [
         {
@@ -1237,6 +1280,7 @@ export const sectionF: Card[] = [
     answer: {
       title: "Antwort",
       text: "Laut **BSI IT-Grundschutz** (BSI-Standard 100-2) besteht der Sicherheitsprozess aus den folgenden Hauptphasen:\n\n1.  **Initiierung des Sicherheitsprozesses**\n    * Übernahme der Verantwortung durch die Leitungsebene\n    * Konzeption und Planung des Prozesses\n    * Erstellung einer Leitlinie zur Informationssicherheit\n    * Aufbau einer geeigneten Organisationsstruktur für das Sicherheitsmanagement\n    * Bereitstellung von Ressourcen (finanziell, personell, zeitlich)\n    * Einbindung aller Mitarbeitenden\n2.  **Erstellung und Umsetzung der Sicherheitskonzeption**\n3.  **Aufrechterhaltung und kontinuierliche Verbesserung** im laufenden Betrieb",
+    textToSpanish: "Según la **protección básica de TI del BSI** (BSI-Standard 100-2), el proceso de seguridad consta de las siguientes fases principales:\n\n1.  **Iniciación del proceso de seguridad**\n    * Asunción de la responsabilidad por parte de la dirección\n    * Concepción y planificación del proceso\n    * Elaboración de una directriz para la seguridad de la información\n    * Creación de una estructura organizativa adecuada para la gestión de la seguridad\n    * Provisión de recursos (financieros, de personal, de tiempo)\n    * Implicación de todo el personal\n2.  **Elaboración e implementación del concepto de seguridad**\n3.  **Mantenimiento y mejora continua** durante la operación",
       importantWords: [
         {
           german: "BSI IT-Grundschutz",
@@ -1280,6 +1324,7 @@ export const sectionF: Card[] = [
     question: {
       title: "Frage",
       text: "Welche Themen sind für einen TÜV geprüften IT-Sicherheitsbeauftragten für die IT-Sicherheit im Unternehmen von Bedeutung?",
+    textToSpanish: "¿Qué temas son importantes para un responsable de seguridad de TI certificado por TÜV en la seguridad de TI de la empresa?",
       difficulty: 2,
       importantWords: [
         {
@@ -1303,6 +1348,7 @@ export const sectionF: Card[] = [
     answer: {
       title: "Antwort",
       text: "Für einen **IT-Sicherheitsbeauftragten** sind folgende Themen von großer Bedeutung:\n\n* **Informationssicherheit** und das **Informationssicherheitsmanagement**.\n* **IS-Managementsysteme** nach **ISO 27001** und **BSI IT-Grundschutz**.\n* Konzepte der Informationssicherheit.\n* Aktuelle Themenbereiche und Konzepte der Informationssicherheit.\n* Sicherheitsmaßnahmen und -konzepte in Bezug auf Organisation, Infrastruktur, **Netzwerksicherheit**, **Systemsicherheit** und **Anwendungssicherheit**.",
+    textToSpanish: "Para un **responsable de seguridad de TI** son especialmente importantes los siguientes temas:\n\n* **Seguridad de la información** y **gestión de la seguridad de la información**.\n* **Sistemas de gestión de la seguridad** según **ISO 27001** y **protección básica de TI del BSI**.\n* Conceptos de seguridad de la información.\n* Temas y conceptos actuales de seguridad de la información.\n* Medidas y conceptos de seguridad en relación con la organización, la infraestructura, la **seguridad de red**, la **seguridad de sistemas** y la **seguridad de aplicaciones**.",
       importantWords: [
         {
           german: "IT-Sicherheitsbeauftragter",
