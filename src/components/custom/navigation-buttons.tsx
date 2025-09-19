@@ -17,7 +17,7 @@ export default function NavigationButtons({
         onClick={onPrev}
         className="px-4 py-2 bg-gray-600 text-white rounded-lg shadow hover:bg-gray-700 flex justify-center items-center gap-2 content-center"
       >
-        ← <span className="hidden sm:block">Pregunta anterior</span>
+        ← <span className="hidden sm:block">Before</span>
       </button>
 
       <button
@@ -31,7 +31,7 @@ export default function NavigationButtons({
         onClick={onNext}
         className="px-4 py-2 bg-purple-600 text-white rounded-lg shadow hover:bg-purple-700 flex justify-center items-center gap-2 content-center"
       >
-        <span className="hidden sm:block">Siguiente pregunta</span> →
+        <span className="hidden sm:block">Next</span> →
       </button>
     </div>
   );

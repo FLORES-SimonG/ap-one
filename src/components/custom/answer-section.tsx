@@ -20,7 +20,7 @@ export default function AnswerSection({
         onClick={() => setFlipped(true)}
         className="px-4 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700"
       >
-        Ver pregunta
+        See Question
       </button>
     </div>
   );
