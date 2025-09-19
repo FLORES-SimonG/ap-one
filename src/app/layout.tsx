@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "IT-Lernkarten App",
-  description: "Designed by Simón Flores",
+  description: 'Intended for studying concepts and professional training for the "Fachinformatiker" (IT specialist) profession.',
 };
 
 export default function RootLayout({
