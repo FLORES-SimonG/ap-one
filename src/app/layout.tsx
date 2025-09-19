@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "IT-Lernkarten App",
+  title: "IT-Ausbildung LearnApp",
   description: 'Intended for studying concepts and professional training for the "Fachinformatiker" (IT specialist) profession.',
 };
 

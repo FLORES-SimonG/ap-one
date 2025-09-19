@@ -108,6 +108,18 @@ export default function LearningCard() {
           }}
         />
       </div>
+      <span className="text-sm italic text-gray-400">
+        Programmed and designed with ❤️
+        <span className="ml-1">by</span>{" "}
+        <a
+          href="https://simongflores.pages.dev"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold text-purple-100 hover:text-purple-300 transition-colors"
+        >
+          Simón G. Flores
+        </a>
+      </span>
     </div>
   );
 }
